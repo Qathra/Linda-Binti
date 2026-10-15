@@ -1,0 +1,9 @@
+<w:sectPr w:rsidR="007C65F4" w:rsidSect="002F21AC"><w:footerReference w:type="default" r:id="rId9"/><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/><w:pgNumType w:fmt="lowerRoman" w:start="1"/><w:cols w:space="720"/><w:titlePg/><w:docGrid w:linePitch="360"/></w:sectPr>
+
+====
+
+<w:sectPr w:rsidR="007C65F4" w:rsidRPr="00C736F6" w:rsidSect="007C65F4"><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/><w:pgNumType w:fmt="lowerRoman"/><w:cols w:space="720"/><w:docGrid w:linePitch="360"/></w:sectPr>
+
+====
+
+<w:sectPr w:rsidR="00721B00" w:rsidRPr="004A6B4C" w:rsidSect="009B5667"><w:footerReference w:type="default" r:id="rId60"/><w:pgSz w:w="12240" w:h="15840"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/><w:pgNumType w:start="1" w:chapStyle="1"/><w:cols w:space="720"/><w:docGrid w:linePitch="360"/></w:sectPr>

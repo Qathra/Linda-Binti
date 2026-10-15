@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Backend Authentication and Authorisation Design</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1680px;
+    background: #ffffff;
+    color: #1c2833;
+    font-family: "Segoe UI", Calibri, Arial, sans-serif;
+    padding: 28px 32px 24px;
+  }
+  h1 { font-size: 26px; font-weight: 700; color: #16324f; }
+  .subtitle { margin-top: 4px; font-size: 15px; color: #5d6d7e; }
+  .band-label {
+    margin: 16px 0 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #7f8c8d;
+  }
+  .arrow { text-align: center; color: #5d6d7e; font-size: 18px; line-height: 1; margin: 6px 0 0; }
+  .row { display: flex; gap: 14px; }
+  .card {
+    flex: 1;
+    border-radius: 10px;
+    padding: 14px 16px;
+    color: #fff;
+  }
+  .card h2 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+  .card p, .card li { font-size: 13.5px; line-height: 1.4; }
+  .card ul { padding-left: 16px; }
+  .sign { background: #1b4f72; }
+  .tokens { background: #1f4e79; }
+  .roles { display: flex; gap: 14px; }
+  .role {
+    flex: 1;
+    background: #f8fafb;
+    border: 1.5px solid #d5dde4;
+    border-radius: 12px;
+    padding: 12px 14px 14px;
+    border-top: 5px solid #1f4e79;
+  }
+  .role.admin { border-top-color: #8c3a2f; }
+  .role.staff { border-top-color: #0e6b4f; }
+  .role h2 { font-size: 16px; margin-bottom: 4px; color: #16324f; }
+  .role .who { font-size: 12.5px; color: #5d6d7e; margin-bottom: 8px; }
+  .role li { font-size: 13.5px; line-height: 1.4; margin-left: 16px; margin-bottom: 3px; }
+  .deny {
+    margin-top: 8px;
+    background: #fff;
+    border: 1px solid #eadfdc;
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 12.5px;
+    color: #8c3a2f;
+  }
+  .note {
+    margin-top: 14px;
+    background: #2f3e34;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 13.5px;
+    line-height: 1.45;
+  }
+  .note strong { font-weight: 700; }
+</style>
+</head>
+<body>
+  <h1>Backend Authentication and Authorisation Design</h1>
+  <p class="subtitle">bcrypt password hashing · JWT access · server-side refresh tokens · three roles</p>
+
+  <div class="band-label">1. Sign in</div>
+  <div class="row">
+    <div class="card sign">
+      <h2>Email and password</h2>
+      <p>Register, login, and device session. The Access PIN and SOS code are never sent or stored on the server.</p>
+    </div>
+    <div class="card sign">
+      <h2>bcrypt hash</h2>
+      <p>Passwords are stored only as a bcrypt hash (cost 12). Login checks the hash. Plain passwords are not kept.</p>
+    </div>
+    <div class="card sign">
+      <h2>Rate limit</h2>
+      <p>Register, login, and refresh are rate-limited so repeated attempts are rejected.</p>
+    </div>
+  </div>
+  <div class="arrow">↓</div>
+
+  <div class="band-label">2. Session tokens</div>
+  <div class="row">
+    <div class="card tokens">
+      <h2>Access JWT</h2>
+      <p>Short-lived bearer token. Every protected endpoint checks this token before a role is allowed.</p>
+    </div>
+    <div class="card tokens">
+      <h2>Refresh token</h2>
+      <p>Stored in SQLite. Used to continue a session. Rotated on refresh. Revoked on logout and password change.</p>
+    </div>
+  </div>
+  <div class="arrow">↓</div>
+
+  <div class="band-label">3. Role check after the token is valid</div>
+  <div class="roles">
+    <section class="role">
+      <h2>USER</h2>
+      <p class="who">Survivor cloud account</p>
+      <ul>
+        <li>Own reports only</li>
+        <li>User-level AI: report analysis and assistant chat</li>
+        <li>Submit anonymised analytics events</li>
+      </ul>
+      <div class="deny">Cannot open another person’s reports, the NGO dashboard, staff list, or audit log.</div>
+    </section>
+    <section class="role staff">
+      <h2>NGO_STAFF</h2>
+      <p class="who">Authorised monitoring</p>
+      <ul>
+        <li>Dashboard, case counts, trends, and statuses</li>
+        <li>Aggregate analytics and AI urgency flags</li>
+        <li>Update case status</li>
+      </ul>
+      <div class="deny">No raw survivor report text. No staff management. No audit log.</div>
+    </section>
+    <section class="role admin">
+      <h2>NGO_ADMIN</h2>
+      <p class="who">Staff and audit, plus monitoring</p>
+      <ul>
+        <li>Everything NGO staff can view</li>
+        <li>Create and list staff accounts</li>
+        <li>Read the audit log</li>
+        <li>Edit education content</li>
+      </ul>
+      <div class="deny">Still no raw survivor report bodies.</div>
+    </section>
+  </div>
+
+  <div class="note"><strong>Privacy boundary.</strong> NGO staff and administrators see aggregates, flags, and case status. They do not receive private report text, phone numbers, the Access PIN, or the SOS code. Very small analytic groups stay suppressed.</div>
+</body>
+</html>

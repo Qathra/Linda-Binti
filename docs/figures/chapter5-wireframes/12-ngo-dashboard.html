@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wireframe — NGO Dashboard</title>
+<link rel="stylesheet" href="wireframe.css" />
+</head>
+<body>
+<article class="sheet">
+  <div class="frames">
+    <div class="col">
+      <div class="phone" style="width:300px">
+        <div class="notch"></div>
+        <div class="status"><span>Web</span><span>restricted</span></div>
+        <div class="screen">
+          <div class="card">
+            <h2>LINDA BINTI</h2>
+            <p class="muted">NGO dashboard</p>
+          </div>
+          <div class="field">NGO email</div>
+          <div class="field">Password</div>
+          <div class="btn">Sign in</div>
+          <p class="hint">Error message appears here if sign-in fails.</p>
+          <div class="card">
+            <h2>Update password</h2>
+            <p class="muted">Shown when a new staff password must be changed before the map opens.</p>
+            <div class="field">Current password</div>
+            <div class="field">New password</div>
+            <div class="field">Confirm password</div>
+            <div class="btn">Save and continue</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" style="flex:1">
+      <div class="browser">
+        <div class="chrome">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <div class="url">/dashboard — Linda Binti NGO</div>
+        </div>
+        <div class="toprow">
+          <strong>LINDA BINTI</strong>
+          <span>Kajiado case-volume map</span>
+          <span class="chip">AI engine: [status]</span>
+          <span class="ghost">Education</span>
+          <span class="ghost">Audit</span>
+          <span class="ghost">Refresh</span>
+          <span class="ghost">Sign out</span>
+        </div>
+        <div class="dash">
+          <div class="map">
+            <div class="map-box">
+              <div class="zone" style="top:18%;left:28%">Kajiado North</div>
+              <div class="zone" style="top:36%;left:46%">Kajiado Central</div>
+              <div class="zone" style="top:40%;left:68%">Kajiado East</div>
+              <div class="zone" style="top:62%;left:22%">Kajiado West</div>
+              <div class="zone" style="top:68%;left:52%">Kajiado South</div>
+              <div style="position:absolute;bottom:12px;left:12px;font-size:12px;color:#444">Map placeholder — sub-county case volume</div>
+            </div>
+            <div class="row">
+              <span class="chip on">High area risk</span>
+              <span class="chip">Low area risk</span>
+              <span class="hint">Case-volume map · syncing</span>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="card">
+              <h2>AI summary</h2>
+              <p class="muted">Short spatial reading. Not a professional judgement.</p>
+            </div>
+            <div class="metrics">
+              <div class="metric"><b>[n]</b><span>Cases</span></div>
+              <div class="metric"><b>[n]</b><span>Critical</span></div>
+              <div class="metric"><b>[n]</b><span>AI flagged</span></div>
+              <div class="metric"><b>[n]</b><span>High-risk zones</span></div>
+            </div>
+            <div class="card">
+              <h2>Priority AI signals</h2>
+              <p class="muted">[Category] · [sub-county] · [urgency]</p>
+              <p class="muted">Empty: no active signals</p>
+            </div>
+            <p class="hint">Privacy protected. Flags do not replace professional judgement. Access is limited to authorised NGO staff and administrators.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </article>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.services.AreaHotspotAssignerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:48.758Z" hostname="DESKTOP-4UJPGRK" time="0.001">
+  <properties/>
+  <testcase name="twoCasesInOneAreaAreHighWhenThatIsThePeak" classname="com.lindabinti.backend.services.AreaHotspotAssignerTest" time="0.001"/>
+  <testcase name="singleCaseDoesNotCreateHighHotspotUntilVolumeBuilds" classname="com.lindabinti.backend.services.AreaHotspotAssignerTest" time="0.0"/>
+  <testcase name="busiestSubCountiesMarkedHighByCaseVolume" classname="com.lindabinti.backend.services.AreaHotspotAssignerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

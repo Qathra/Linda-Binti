@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wireframe — Backend Security and Authorisation</title>
+<link rel="stylesheet" href="wireframe.css" />
+</head>
+<body>
+<article class="sheet">
+  <div class="flow">
+    <p class="band">1. Sign in</p>
+    <div class="roles">
+      <div class="role">
+        <h2>Email and password</h2>
+        <p class="muted">Register, login, and device session. The Access Code and the SOS code are never sent or stored on the server.</p>
+      </div>
+      <div class="role">
+        <h2>bcrypt hash</h2>
+        <p class="muted">The password is stored only as a bcrypt hash. Login checks the hash. The plain password is not kept.</p>
+      </div>
+      <div class="role">
+        <h2>Rate limit</h2>
+        <p class="muted">Register, login, and refresh are rate-limited so repeated attempts are rejected.</p>
+      </div>
+    </div>
+    <div class="arrow">↓</div>
+    <p class="band">2. Session tokens</p>
+    <div class="roles" style="grid-template-columns:1fr 1fr">
+      <div class="role">
+        <h2>Access JWT</h2>
+        <p class="muted">Short-lived bearer token. Every protected endpoint checks this token before a role is allowed.</p>
+      </div>
+      <div class="role">
+        <h2>Refresh token</h2>
+        <p class="muted">Stored in SQLite. Used to continue a session. Rotated on refresh. Revoked on logout and on password change.</p>
+      </div>
+    </div>
+    <div class="arrow">↓</div>
+    <p class="band">3. Role check after the token is valid</p>
+    <div class="roles">
+      <div class="role">
+        <h2>USER</h2>
+        <p class="muted">Survivor cloud account</p>
+        <ul>
+          <li>Own reports only</li>
+          <li>User-level AI: report analysis and assistant chat</li>
+          <li>Submit anonymised analytics events</li>
+        </ul>
+        <div class="deny">Cannot open another person’s reports, the NGO dashboard, the staff list, or the audit log.</div>
+      </div>
+      <div class="role">
+        <h2>NGO_STAFF</h2>
+        <p class="muted">Authorised monitoring</p>
+        <ul>
+          <li>Dashboard, case counts, trends, and statuses</li>
+          <li>Aggregate analytics and AI urgency flags</li>
+          <li>Update case status</li>
+        </ul>
+        <div class="deny">No raw survivor report text. No staff management. No audit log.</div>
+      </div>
+      <div class="role">
+        <h2>NGO_ADMIN</h2>
+        <p class="muted">Staff, audit, and monitoring</p>
+        <ul>
+          <li>Everything NGO staff can view</li>
+          <li>Create and list staff accounts</li>
+          <li>Read the audit log</li>
+          <li>Edit education content</li>
+        </ul>
+        <div class="deny">Still no raw survivor report bodies.</div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Privacy boundary</h2>
+      <p class="muted">NGO staff and administrators see aggregates, flags, and case status. They do not receive private report text, phone numbers, the Access Code, or the SOS code. Very small analytic groups stay suppressed. A USSD gateway must present its key; the caller’s raw number is not stored.</p>
+    </div>
+  </div>
+
+  </article>
+</body>
+</html>

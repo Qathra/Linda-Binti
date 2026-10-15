@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.ai.FallbackAssistantChatProviderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:48.723Z" hostname="DESKTOP-4UJPGRK" time="0.002">
+  <properties/>
+  <testcase name="fallsBackToRulesOnRateLimit" classname="com.lindabinti.backend.ai.FallbackAssistantChatProviderTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[AI[failure] code=rate_limited status=unavailable detail=assistant_fallback=rules-assistant
+]]></system-err>
+</testsuite>

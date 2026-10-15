@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:11.520Z" hostname="DESKTOP-4UJPGRK" time="1.443">
+  <properties/>
+  <testcase name="healthReportsConfiguredWhenGatewaySecretInjected" classname="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" time="1.364"/>
+  <testcase name="africasTalkingRejectsBadKeyWhenConfigured" classname="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" time="0.033"/>
+  <testcase name="africasTalkingEndpointReturnsConMenuAndOmitsMsisdn" classname="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" time="0.029"/>
+  <testcase name="parseFormIgnoresCaseAndMarksPhonePresentWithoutExposingItInResponse" classname="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" time="0.0"/>
+  <testcase name="africasTalkingEndpointEndsSessionOnHotlineChoice" classname="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" time="0.017"/>
+  <testcase name="toAtResponseUsesConAndEndPrefixes" classname="com.lindabinti.backend.AfricasTalkingUssdAdapterTest" time="0.0"/>
+  <system-out><![CDATA[18:24:12.140 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:12.457 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started in 0.337 seconds.
+18:24:12.460 [DefaultDispatcher-worker-3 @coroutine#4] INFO  ktor.test - Responding at http://localhost:80
+18:24:12.461 [DefaultDispatcher-worker-3 @coroutine#4] INFO  ktor.test - Responding at https://localhost:443
+18:24:12.895 [DefaultDispatcher-worker-1 @call-context#11] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:12.903 [DefaultDispatcher-worker-1 @call-context#11] INFO  ktor.test - Application started in 0.009 seconds.
+18:24:12.904 [DefaultDispatcher-worker-2 @coroutine#13] INFO  ktor.test - Responding at http://localhost:80
+18:24:12.904 [DefaultDispatcher-worker-2 @coroutine#13] INFO  ktor.test - Responding at https://localhost:443
+18:24:12.922 [DefaultDispatcher-worker-1 @call-context#20] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:12.932 [DefaultDispatcher-worker-1 @call-context#20] INFO  ktor.test - Application started in 0.01 seconds.
+18:24:12.932 [DefaultDispatcher-worker-2 @coroutine#22] INFO  ktor.test - Responding at http://localhost:80
+18:24:12.932 [DefaultDispatcher-worker-2 @coroutine#22] INFO  ktor.test - Responding at https://localhost:443
+18:24:12.950 [DefaultDispatcher-worker-2 @call-context#29] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:12.958 [DefaultDispatcher-worker-2 @call-context#29] INFO  ktor.test - Application started in 0.008 seconds.
+18:24:12.959 [DefaultDispatcher-worker-1 @coroutine#31] INFO  ktor.test - Responding at http://localhost:80
+18:24:12.961 [DefaultDispatcher-worker-1 @coroutine#31] INFO  ktor.test - Responding at https://localhost:443
+]]></system-out>
+  <system-err><![CDATA[SLF4J(I): Connected with provider of type [ch.qos.logback.classic.spi.LogbackServiceProvider]
+]]></system-err>
+</testsuite>

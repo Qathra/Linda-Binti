@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Figure 5.18 Linda Binti Backend API and Service Wireframe</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1680px;
+    background: #ffffff;
+    color: #1c2833;
+    font-family: "Segoe UI", Calibri, Arial, sans-serif;
+    padding: 28px 32px 24px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #16324f;
+  }
+  .subtitle {
+    margin-top: 4px;
+    font-size: 15px;
+    color: #5d6d7e;
+  }
+  .band-label {
+    margin: 16px 0 8px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #7f8c8d;
+  }
+  .row { display: flex; gap: 14px; }
+  .card {
+    border-radius: 10px;
+    padding: 12px 14px;
+    color: #fff;
+  }
+  .card h2 { font-size: 16px; font-weight: 700; }
+  .card p, .card li { font-size: 13px; line-height: 1.35; }
+  .card ul { margin-top: 6px; padding-left: 16px; }
+  .clients .card { flex: 1; min-height: 78px; background: #1b4f72; }
+  .clients .card p { margin-top: 4px; opacity: 0.92; }
+  .arrow {
+    text-align: center;
+    color: #5d6d7e;
+    font-size: 18px;
+    line-height: 1;
+    margin: 6px 0 0;
+  }
+  .split { display: flex; gap: 16px; align-items: stretch; }
+  .panel {
+    border: 1.5px solid #d5dde4;
+    border-radius: 12px;
+    padding: 12px;
+    background: #f8fafb;
+  }
+  .panel.public { flex: 0 0 520px; border-top: 5px solid #0e6b4f; }
+  .panel.protected { flex: 1; border-top: 5px solid #8c3a2f; }
+  .panel-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .public .panel-title { color: #0e6b4f; }
+  .protected .panel-title { color: #8c3a2f; }
+  .endpoint {
+    background: #ffffff;
+    border: 1px solid #e1e7ec;
+    border-radius: 6px;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 12.5px;
+    color: #1c2833;
+  }
+  .roles { display: flex; gap: 10px; }
+  .role {
+    flex: 1;
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #eadfdc;
+  }
+  .role h3 {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #8c3a2f;
+    margin-bottom: 6px;
+  }
+  .role .endpoint { font-size: 11.5px; }
+  .services { display: flex; flex-wrap: wrap; gap: 10px; }
+  .service {
+    width: calc(33.333% - 7px);
+    background: #1f4e79;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 650;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .data { display: flex; gap: 14px; }
+  .data .card { flex: 1; background: #2f3e34; min-height: 64px; }
+  .note {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #5d6d7e;
+  }
+</style>
+</head>
+<body>
+  <h1>Linda Binti Backend API and Service Wireframe</h1>
+  <p class="subtitle">Ktor HTTPS REST API · public calls and role-protected calls · SQLite</p>
+
+  <div class="band-label">Clients</div>
+  <div class="row clients">
+    <div class="card">
+      <h2>Android app</h2>
+      <p>Offline-first. Optional cloud sync, education, and AI when the user consents.</p>
+    </div>
+    <div class="card">
+      <h2>NGO web dashboard</h2>
+      <p>Cases, map, trends, AI signals, education CMS, and audit log.</p>
+    </div>
+    <div class="card">
+      <h2>USSD gateway</h2>
+      <p>Africa’s Talking callback for anonymous feature-phone requests.</p>
+    </div>
+  </div>
+  <div class="arrow">↓</div>
+
+  <div class="band-label">API layer</div>
+  <div class="split">
+    <section class="panel public">
+      <div class="panel-title">Public endpoints — no login</div>
+      <div class="endpoint">GET /v1/health</div>
+      <div class="endpoint">GET /v1/education/content</div>
+      <div class="endpoint">GET /v1/education/content/{id}</div>
+      <div class="endpoint">GET /v1/support-services</div>
+      <div class="endpoint">GET /v1/ai/capabilities</div>
+      <div class="endpoint">POST /v1/auth/register</div>
+      <div class="endpoint">POST /v1/auth/login</div>
+      <div class="endpoint">POST /v1/auth/refresh</div>
+      <div class="endpoint">POST /v1/auth/device</div>
+      <div class="endpoint">POST /v1/ussd/inbound</div>
+      <div class="endpoint">POST /v1/ussd/africas-talking</div>
+    </section>
+    <section class="panel protected">
+      <div class="panel-title">Protected endpoints — JWT, then role</div>
+      <div class="roles">
+        <div class="role">
+          <h3>USER</h3>
+          <div class="endpoint">POST /v1/reports</div>
+          <div class="endpoint">GET /v1/reports/me</div>
+          <div class="endpoint">POST /v1/ai/analyze-report</div>
+          <div class="endpoint">POST /v1/ai/assistant-chat</div>
+          <div class="endpoint">POST /v1/analytics/events</div>
+        </div>
+        <div class="role">
+          <h3>NGO staff and NGO admin</h3>
+          <div class="endpoint">GET /v1/reports/flags</div>
+          <div class="endpoint">POST /v1/reports/flags/{id}/analyze</div>
+          <div class="endpoint">GET /v1/analytics/summary</div>
+          <div class="endpoint">GET /v1/dashboard/overview</div>
+          <div class="endpoint">GET /v1/dashboard/cases</div>
+          <div class="endpoint">GET /v1/dashboard/trends</div>
+          <div class="endpoint">GET /v1/dashboard/intelligence</div>
+        </div>
+        <div class="role">
+          <h3>NGO admin only</h3>
+          <div class="endpoint">GET /v1/admin/staff</div>
+          <div class="endpoint">POST /v1/admin/staff</div>
+          <div class="endpoint">GET /v1/admin/audit</div>
+          <div class="endpoint">POST /v1/admin/education/content</div>
+          <div class="endpoint">PUT /v1/admin/education/content/{id}</div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="arrow">↓</div>
+
+  <div class="band-label">Services</div>
+  <div class="services">
+    <div class="service">Authentication</div>
+    <div class="service">Reporting</div>
+    <div class="service">AI orchestration</div>
+    <div class="service">Education content</div>
+    <div class="service">Support services</div>
+    <div class="service">Analytics</div>
+    <div class="service">NGO intelligence</div>
+    <div class="service">Audit logging</div>
+    <div class="service">USSD</div>
+  </div>
+  <div class="arrow">↓</div>
+
+  <div class="band-label">Data</div>
+  <div class="data">
+    <div class="card">
+      <h2>SQLite</h2>
+      <p>Users, reports, analytics, education records, audit log. Access PIN, SOS code, and trusted contacts are never stored here.</p>
+    </div>
+    <div class="card">
+      <h2>Education video files</h2>
+      <p>backend/data/education_videos — served at /media/education</p>
+    </div>
+  </div>
+  <p class="note">USSD inbound accepts a gateway key when LINDA_USSD_GATEWAY_SECRET is set. Phone numbers are not stored.</p>
+</body>
+</html>

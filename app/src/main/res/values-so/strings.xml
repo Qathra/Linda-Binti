@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Somali placeholder pack. Do not invent wording.
+      Missing keys fall back to English until community-verified translations exist.
+    -->
+    <string name="lang_pack_incomplete">Somali translations are not complete yet. English is shown until a verified pack is added.</string>
+</resources>

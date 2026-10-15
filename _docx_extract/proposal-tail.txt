@@ -1,0 +1,319 @@
+REFERENCES32
+LIST OF FIGURES
+Figure 1:UN Women Research and Data on Ending Violence Against Women8
+Figure 2:Global Prevalence of Female Genital Mutilation(FGM) among girls and women aged 15-49 years10
+Figure 3:Agile Software Development Technology19
+LIST OF TABLES
+Table 1: Summary of Existing Digital Solutions Related to GBV and FGM Support15
+Table 2: Development Tools And Technologies23
+Table 3: Project Schedule31
+ACRONYMS
+Acronym Meaning
+AI Artificial Intelligence
+FGM Female Genital Mutilation
+GBV Gender-Based Violence
+GPS Global Positioning System
+ICT Information and Communication Technology
+NGO Non-Governmental Organization
+SOS Save Our Souls (Emergency Distress Signal)
+TAM Technology Acceptance Model
+CHAPTER ONE: INTRODUCTION
+1.1 Background of the Study
+Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) remain major social and human rights challenges affecting millions of women and girls globally. In Kenya, despite government interventions, legal frameworks, and awareness campaigns, many cases of GBV and FGM continue to occur, especially in vulnerable and marginalized communities. Victims often face barriers such as fear, stigma, lack of immediate support, and limited access to reporting mechanisms.
+Advancements in Information and Communication Technology (ICT), Artificial Intelligence (AI), mobile computing, and geolocation technologies have created opportunities for developing innovative solutions that enhance personal safety and support vulnerable populations. Mobile applications have increasingly been used for emergency response, incident reporting, and access to support services.
+Linda Binti is proposed as a mobile and web-based safety system that combines emergency alert mechanisms, AI-powered counseling support, secure incident reporting, and data visualization tools. The system is designed to provide discreet access to assistance for individuals at risk of GBV and FGM while enabling organizations to monitor trends and coordinate interventions effectively.
+The proposed solution leverages AI chatbot technology, GPS tracking, secure databases, and web-based dashboards to improve reporting, response, and prevention efforts. Through the integration of these technologies, the system seeks to contribute to the fight against GBV and FGM in Kenya.
+1.2 Problem Statement
+Despite the existence of helplines, awareness campaigns, and protection agencies, many victims of GBV and FGM are unable to seek help promptly due to fear of retaliation, social stigma, lack of privacy, and limited access to emergency support systems. Traditional reporting mechanisms are often visible, time-consuming, or inaccessible during emergencies.
+Additionally, organizations working to combat GBV and FGM frequently encounter challenges in collecting accurate data, identifying high-risk regions, and responding effectively to emerging incidents. Existing systems often lack real-time reporting, location tracking, and AI-assisted analysis capabilities.
+Therefore, there is a need for a secure, discreet, and intelligent system that enables victims to request assistance quickly, access confidential guidance, report incidents safely, and support organizations in monitoring and preventing GBV and FGM cases.
+1.3 Research Aim and Objectives
+1.3.1 Aim
+To develop Linda binti, an AI-powered mobile and web-based platform for the prevention of Gender-Based violence (GBV) and Female Genital Mutilation (FGM).
+1.3.2 Specific Objectives
+1.To investigate the existing challenges associated with reporting and responding to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+2.To identify the functional and non-functional requirements of an AI-powered safety platform for supporting individuals at risk of GBV and FGM.
+3.To validate the developed system in terms of functionality, usability, and its effectiveness in supporting GBV and FGM prevention and response.
+4.To design and develop Linda Binti, an AI-powered mobile and web-based platform that provides discreet emergency alerts, confidential AI support, incident reporting, and organizational monitoring.
+1.4 Research Questions
+1. What challenges exist in the current reporting and response mechanisms for Gender-Based Violence (GBV) and Female Genital Mutilation (FGM)?
+2. What functional and non-functional requirements are necessary for developing an AI-powered mobile and web-based safety platform for the prevention of GBV and FGM?
+3. How can an AI-powered mobile and web-based safety platform be developed to provide discreet emergency alerts, confidential AI support, incident reporting, and organizational monitoring for the prevention of GBV and FGM?
+4. How effective is the developed Linda Binti platform in supporting the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM)?
+1.5 Significance of the Study
+This study will benefit victims and vulnerable individuals by providing a discreet mechanism for requesting emergency assistance and accessing confidential support. NGOs and protection agencies will benefit from improved monitoring of reported cases and identification of trends. Government institutions may use the findings to support efforts aimed at combating GBV and FGM through data-driven decision-making. The study will also contribute to academic knowledge on the application of Artificial Intelligence and mobile technologies in addressing social challenges. Ultimately, society may benefit through improved awareness, reporting, and intervention mechanisms.
+1.6 Scope and Delimitation
+1.6.1 Scope of the study
+This study focuses on the design and development of Linda Binti, an AI-powered mobile and web-based safety platform for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM). The proposed system consists of a mobile application that enables users to register, manage emergency contacts, activate a discreet SOS alert using a secret code, access an AI-powered chatbot for confidential guidance and support, and report GBV and FGM incidents securely. The system also incorporates GPS technology to share the user’s location with trusted emergency contacts during emergencies. In addition, the study includes the development of a web-based dashboard that enables authorized organizations, such as NGOs and protection agencies, to monitor reported incidents, visualize trends, and identify high-risk areas through AI-assisted data analysis. The study is limited to the design, development, and evaluation of a prototype system and does not include nationwide deployment.
+1.6.2 Delimitations of the Study
+This study is limited to the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) within Kenya and does not address other forms of crime or emergency situations. The proposed system is intended to complement existing support services by facilitating emergency reporting, providing AI-based guidance, and improving communication between users and authorized organizations; it does not replace professional counseling, healthcare services, law enforcement, or legal intervention. In addition, some system features, such as GPS location sharing and real-time notifications, depend on internet connectivity, GPS availability, and access to compatible mobile devices. Due to time and resource constraints, the study focuses on the development and testing of a functional prototype rather than a fully deployed national system.
+1.7 Summary of the Chapter
+This chapter introduced the study by discussing the background of GBV and FGM challenges, the problem statement, research aim, objectives, research questions, significance of the study, and the scope of the project. The chapter establishes the need for an AI-powered safety system capable of providing discreet emergency support, confidential guidance, incident reporting, and organizational monitoring tools.
+CHAPTER TWO: LITERATURE REVIEW
+2.1 Introduction
+This chapter reviews existing literature related to the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) through the use of digital technologies. It examines previous studies on mobile safety applications, Artificial Intelligence (AI), chatbot technology, Global Positioning System (GPS) services, emergency alert systems, and data analytics, highlighting how these technologies have been applied to improve reporting, access to support services, and emergency response.
+The chapter also reviews existing systems developed to address GBV and FGM and discusses their strengths, limitations, and relevance to the proposed study. In addition, it presents the theoretical foundation that supports the development of the proposed system and identifies the research gaps that justify the need for Linda Binti, an AI-powered mobile and web-based safety platform for the prevention and response to Gender-Based Violence and Female Genital Mutilation. The chapter concludes by summarizing the key findings from the reviewed literature and demonstrating how the proposed study seeks to address the identified gaps.
+2.2 Review of existing literature
+2.2.1 Gender-Based Violence (GBV)
+Gender-Based Violence (GBV) remains one of the most widespread human rights and public health challenges affecting women and girls across the world. It includes physical, sexual, emotional, psychological, and economic violence that occurs because of unequal power relations and gender inequality. GBV affects individuals of all ages and backgrounds, leading to long-term physical injuries, mental health problems, reduced educational opportunities, and negative socio-economic outcomes for survivors (UN Women, 2024).
+According to the World Health Organization (WHO, 2024), approximately one in three women globally experiences physical or sexual violence during her lifetime, with most incidents being committed by intimate partners. Despite national laws, awareness campaigns, and community interventions, many GBV cases remain unreported because victims fear retaliation, social stigma, discrimination, and lack of confidence in existing reporting mechanisms (WHO, 2024).
+In Kenya, Gender-Based Violence continues to be a major concern despite the implementation of legal frameworks and protection policies. Reports published by UN Women (2024) indicate that survivors often experience difficulties in accessing timely medical care, legal assistance, psychosocial support, and emergency protection services. Challenges such as limited reporting channels, fear of exposure, cultural beliefs, and inadequate coordination among service providers continue to affect effective prevention and response efforts.
+The increasing availability of smartphones and internet connectivity has created opportunities for using digital technologies to improve GBV prevention and response. Mobile applications, emergency alert systems, online counseling platforms, and Artificial Intelligence-based support tools are increasingly being explored as mechanisms for providing confidential reporting, immediate assistance, and access to support services. These technologies have the potential to reduce reporting barriers, improve communication between survivors and support organizations, and enhance emergency response (UNICEF, 2023).
+Although several digital solutions have been introduced to support survivors of Gender-Based Violence, many existing systems primarily focus on reporting incidents after they have occurred. Few systems integrate discreet emergency activation, Artificial Intelligence-powered guidance, location sharing, and organizational monitoring into a single platform. This limitation highlights the need for an integrated mobile and web-based safety platform such as Linda Binti that combines emergency assistance, AI-based support, secure reporting, and organizational monitoring for improved prevention and response to GBV.
+Figure 1:UN Women Research and Data on Ending Violence Against Women
+Source: UN Women (2025).
+2.2.2 Female Genital Mutilation (FGM)
+Female Genital Mutilation (FGM) is recognized as one of the most harmful traditional practices affecting women and girls worldwide. According to UNICEF (2025), FGM involves the partial or total removal of the external female genitalia or other injuries to the female genital organs for non-medical reasons. The practice violates the human rights of women and girls and has no known health benefits. Instead, it exposes victims to severe physical pain, excessive bleeding, infections, complications during childbirth, psychological trauma, and, in some cases, death. Although many countries have enacted laws prohibiting FGM, the practice continues due to cultural beliefs, social pressure, and gender inequality.
+UNICEF (2025) reports that millions of girls and women have undergone FGM globally, with the practice remaining common in several African countries, including Kenya. In some communities, FGM is viewed as a rite of passage into womanhood or a requirement for marriage. These beliefs have made it difficult to eliminate the practice despite continuous awareness campaigns, legal enforcement, and community education programmes. Many girls remain at risk because families often perform FGM in secrecy to avoid legal consequences.
+The continued occurrence of FGM demonstrates the importance of strengthening prevention and response mechanisms through technology. According to the World Health Organization (WHO, 2024), early reporting, community awareness, and timely intervention are essential in protecting girls who are at risk. However, fear of stigma, family pressure, and concerns about confidentiality discourage many victims and witnesses from reporting suspected cases. As a result, there is a need for secure and confidential reporting platforms that enable individuals to seek assistance without exposing themselves to danger.
+Information and Communication Technology (ICT) provides an opportunity to improve the prevention and response to FGM through mobile applications, location-based services, and Artificial Intelligence. Mobile safety applications can enable users to request emergency assistance, report suspected cases confidentially, and receive guidance on available support services. Artificial Intelligence can further improve these systems by providing instant responses through chatbots, identifying patterns from reported incidents, and supporting organizations in allocating resources to high-risk areas. These technologies can complement existing government and community initiatives by improving accessibility, confidentiality, and response efficiency.
+Despite these technological advancements, many existing digital solutions primarily focus on reporting incidents after they have occurred and provide limited support for early prevention. Few systems combine discreet emergency activation, AI-powered guidance, GPS location sharing, and organizational monitoring within a single platform. This limitation creates a gap that the proposed Linda Binti system seeks to address by integrating these features into one mobile and web-based safety platform designed specifically for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+Figure 2:Global Prevalence of Female Genital Mutilation(FGM) among girls and women aged 15-49 years
+Source: UNICEF Data 2024.
+2.2.3 Artificial Intelligence Chatbots in GBV and FGM Support
+Artificial Intelligence (AI) chatbots have become increasingly important in providing digital support services, particularly in situations where users require confidential guidance and immediate access to information. AI chatbots are computer programs that use Artificial Intelligence and Natural Language Processing (NLP) to interact with users through text or voice conversations. Unlike traditional chat systems that rely on predefined responses, AI chatbots are capable of understanding user questions and providing relevant guidance based on available knowledge.
+In the context of Gender-Based Violence (GBV) and Female Genital Mutilation (FGM), AI chatbots provide a safe and confidential environment where individuals can seek information without fear of stigma or discrimination. Survivors and individuals at risk may hesitate to disclose their experiences to family members, friends, or authorities due to fear, trauma, or social pressure. AI chatbots help bridge this gap by offering immediate guidance, safety information, referral services, and emotional support while maintaining user privacy.
+Several humanitarian organizations have adopted AI-powered conversational technologies to improve access to support services. These systems provide information about available services, explain users’ rights, recommend safety measures, and direct individuals to appropriate organizations where professional assistance can be obtained. Although AI chatbots cannot replace trained counselors or healthcare professionals, they complement existing support services by ensuring that assistance is available at any time.
+For the proposed Linda Binti platform, the AI chatbot will provide confidential guidance to individuals who fear becoming victims of GBV or FGM. The chatbot will answer frequently asked questions, provide information on available support services, recommend safety measures, and encourage users to seek professional assistance whenever necessary. This functionality is expected to improve access to information while promoting user confidentiality and timely intervention.
+Despite their advantages, AI chatbots have certain limitations. They may not fully understand complex emotional situations, cultural expressions, or highly sensitive conversations. Consequently, AI-generated responses should serve as supportive guidance rather than professional medical, psychological, or legal advice. Human intervention remains essential in situations requiring specialized care or emergency response.
+2.2.4 Mobile Applications and Emergency Alert Systems for GBV and FGM
+The growth of smartphone technology has encouraged the development of mobile applications that support personal safety, emergency communication, and access to assistance services. Mobile-based safety systems allow users to communicate during emergency situations through features such as alert notifications, location sharing, and digital reporting mechanisms. These technologies have created new opportunities for improving access to support services for individuals experiencing Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) (World Health Organization [WHO], 2021).
+Emergency alert systems are commonly used to provide rapid communication between individuals in danger and trusted contacts or response organizations. The integration of location-based technologies such as GPS can support emergency response by providing information that may assist in locating individuals during critical situations. Digital platforms have also contributed to improving awareness, reporting, and coordination efforts in addressing violence against women and girls (UN Women, 2023).
+However, many existing mobile safety solutions mainly focus on basic emergency communication, reporting, or information sharing. Most do not provide a complete protection system that combines discreet emergency activation, confidential AI-based guidance, incident reporting, and organizational decision-support tools. In addition, many existing solutions are not specifically designed to address the unique challenges associated with GBV and FGM, where victims may require privacy, secrecy, and immediate support due to fear of stigma or retaliation.
+Therefore, there is a need for an integrated digital safety platform that combines emergency response, Artificial Intelligence support, location-based assistance, and data analysis capabilities. The proposed Linda Binti system seeks to address this gap by providing a discreet mobile application with secret emergency activation, AI-powered chatbot support, secure incident reporting, and a web-based monitoring platform for authorized organizations.
+2.2.5 Artificial Intelligence in GBV and FGM Support Systems
+Artificial Intelligence (AI) has increasingly been explored as a technology that can improve access to support services, information sharing, and decision-making in social protection systems. AI systems are capable of analyzing information, identifying patterns, and providing automated responses that assist users in accessing relevant services. In the context of Gender-Based Violence (GBV) and Female Genital Mutilation (FGM), AI technologies present an opportunity to develop confidential and accessible platforms that support individuals who may experience barriers when seeking help. (UN Women, 2024). (UN Women Knowledge hub)
+One of the common applications of Artificial Intelligence in support systems is the use of AI-powered chatbots. AI chatbots provide users with automated conversations, guidance, and access to information through digital platforms. These systems can offer immediate responses, provide information about available support services, and guide users on possible actions they can take when experiencing unsafe situations. This is particularly important in GBV and FGM-related cases where victims may fear stigma, retaliation, or lack of confidentiality when seeking assistance.
+AI-powered systems can also support organizations involved in preventing violence against women and girls by analyzing collected data and identifying patterns. Through data analysis, organizations may understand areas experiencing increased risks and improve the planning of prevention and intervention strategies. Technology-based approaches can therefore strengthen existing efforts by improving access to information, supporting reporting mechanisms, and enhancing coordination among stakeholders. (UN Women, 2024). (unwomen.org)
+However, the use of Artificial Intelligence in sensitive areas such as GBV and FGM requires careful consideration of privacy, security, and ethical issues. AI systems should not replace professional counsellors, legal services, or emergency responders. Instead, they should function as supportive tools that provide users with guidance and connect them with appropriate assistance. The protection of personal information is also essential because victims may provide sensitive details about their experiences.
+Despite the potential of AI technologies, many existing digital support systems focus on only one function, such as providing information, reporting cases, or offering emergency communication. Limited solutions combine AI-based guidance, discreet emergency activation, GPS-based assistance, and organizational monitoring within one integrated platform. Therefore, Linda Binti aims to address this gap by combining Artificial Intelligence, emergency response mechanisms, and a web-based monitoring platform to provide a more comprehensive safety solution for individuals at risk of GBV and FGM.
+2.2.6 GPS-Based Emergency Response Systems
+Global Positioning System (GPS) technology has become an important feature in mobile-based safety and emergency response systems. GPS enables applications to determine and share a user’s location, which can support faster assistance during emergency situations. In cases involving Gender-Based Violence (GBV) and Female Genital Mutilation (FGM), location-based technologies can help individuals at risk share their location with trusted contacts when seeking urgent support. (World Health Organization, 2021).
+However, many existing GPS-based safety systems mainly focus on location tracking and emergency alerts without integrating additional features such as Artificial Intelligence support, confidential guidance, and organizational monitoring. Therefore, there is a need for integrated platforms such as Linda Binti that combine GPS-based emergency assistance with AI-powered support and monitoring capabilities for GBV and FGM prevention and response.
+2.2.7 Web-Based Monitoring Platforms and Data Visualization
+Web-based platforms have become important tools for organizations because they enable centralized management, monitoring, and analysis of information collected from different sources. In social protection and public health systems, web dashboards are used to present data in an organized manner, support decision-making, and improve coordination among stakeholders. Data visualization tools allow organizations to identify trends, patterns, and areas requiring intervention through graphical representations such as maps, charts, and reports.
+In relation to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM), web-based monitoring platforms can support organizations by providing access to reported cases, analyzing incident patterns, and improving response planning. A web dashboard can enable authorized organizations such as NGOs to monitor cases, identify high-risk areas, and allocate resources effectively.
+However, many existing digital solutions focus mainly on individual users and emergency reporting, with limited integration of organizational monitoring features. There is therefore a need for platforms that connect users seeking assistance with organizations responsible for prevention and intervention. Linda Binti addresses this gap by combining a mobile application for users with a web-based dashboard for monitoring, analysis, and coordination of GBV and FGM prevention efforts.
+Table 1: Summary of Existing Digital Solutions Related to GBV and FGM Support
+Existing Technology
+Main Function
+Limitation Identified
+Mobile reporting platform
+Allow Users to report GBV cases and seek assistance
+May not provide immediate emergency response/integrated safety features.
+Emergency alert applications
+Enable users to send distress alerts and notifications
+Mostly focus on alerts without AI-based guidance/ specialized GBV/FGM support.
+AI Chatbot support systems
+Provide automated information and guidance to users
+May lack emergency activation, location sharing and organizational monitoring
+GPS-based safety systems
+Provide location tracking and sharing during emergencies
+Mainly focus on location services without combining multiple support features.
+Source: Researcher (2026).
+2.3 Theory and Citation
+2.3.1 Technology Acceptance Model (TAM)
+The Technology Acceptance Model (TAM) was introduced by Davis (1989) to explain how users accept and adopt new technologies. The model suggests that two main factors influence users’ acceptance of a system: perceived usefulness and perceived ease of use. Perceived usefulness refers to the extent to which a user believes that a technology will improve their ability to achieve a specific goal, while perceived ease of use refers to how simple and convenient the technology is to operate.
+In relation to Linda Binti, TAM supports the development of a user-friendly mobile application that enables individuals at risk of Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) to easily access emergency support, use the AI chatbot, and activate SOS alerts. Since users may need to interact with the application during stressful situations, simplicity, accessibility, and reliability are important factors that influence acceptance of the system.
+The theory is therefore relevant to this study because the success of Linda Binti depends on whether vulnerable individuals can easily understand, trust, and use the application when seeking support.
+(Davis, 1989)
+2.3.2 Protection Motivation Theory (PMT)
+Protection Motivation Theory (PMT) was developed by Rogers (1975) to explain how individuals respond to threats and decide to take protective actions. The theory explains that people’s behaviour is influenced by their perception of a threat, their understanding of the severity of the threat, and their belief that they are capable of taking effective action to protect themselves.
+In the context of Linda Binti, PMT is relevant because individuals facing risks related to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) may need immediate support and a safe way to respond to threats. The system provides protective mechanisms such as discreet SOS activation, GPS-based location sharing, AI guidance, and access to support resources, which can encourage users to take action when they feel threatened.
+The theory supports the idea that providing accessible and reliable digital safety tools can improve individuals’ ability to respond to risks and seek assistance during emergency situations. Therefore, PMT provides a foundation for understanding the role of technology in supporting prevention and response efforts against GBV and FGM.
+(Rogers, 1975)
+2.4 Research Gap
+Existing digital solutions have contributed to addressing challenges related to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) through different approaches. Mobile applications and emergency alert systems have been developed to support reporting, communication, and access to assistance during unsafe situations. AI-powered chatbots have also been explored to provide users with information, guidance, and automated support, while GPS-based systems have improved location sharing during emergencies. Web-based platforms and dashboards have further supported organizations by enabling data management, monitoring, and visualization of reported cases. (UN Women, 2024; World Health Organization, 2021).
+However, most existing solutions address these challenges separately rather than through one integrated platform. Emergency applications mainly focus on sending alerts or sharing locations but may not provide AI-based guidance or confidential support. Chatbot systems can provide information and assistance but may lack emergency activation and real-time location sharing. Similarly, web-based monitoring systems may support organizations in managing data but are often not directly connected to individual users experiencing immediate risks.
+Furthermore, limited attention has been given to solutions that combine discreet emergency activation, GPS location sharing, AI-powered support, incident reporting, and web-based monitoring within a single system specifically focused on GBV and FGM prevention and response. Existing approaches also provide limited support for individuals who may hesitate to seek help due to fear, stigma, or lack of privacy.
+Therefore, this study proposes Linda Binti, an AI-powered mobile and web-based safety platform that integrates emergency SOS alerts, GPS-based assistance, AI chatbot support, incident reporting, and an organizational monitoring dashboard. The proposed system aims to address the identified gap by providing a unified platform that supports individuals at risk while enabling organizations to monitor trends and improve intervention strategies.
+2.5 Chapter summary
+This chapter reviewed existing literature related to Gender-Based Violence (GBV), Female Genital Mutilation (FGM), mobile applications, emergency alert systems, Artificial Intelligence, and GPS-based support technologies. The review demonstrated that digital technologies have the potential to improve access to support services, emergency response, and data-driven interventions for vulnerable individuals.
+The chapter also discussed the theoretical foundations supporting the study, including the Technology Acceptance Model and Protection Motivation Theory, which explain technology adoption and individuals’ responses to safety threats. The research gap identified that although various digital solutions exist, limited systems integrate discreet emergency support, AI-powered guidance, GPS location sharing, and organizational monitoring within a single platform.
+Therefore, the review provides justification for the development of Linda Binti, an AI-powered mobile and web-based safety platform designed to support prevention and response efforts against GBV and FGM.
+CHAPTER THREE: SOFTWARE DEVELOPMENT METHODOLOGY
+3.1 Introduction
+This chapter presents the software development methodology that will be adopted in the design and development of the proposed Linda Binti, an Artificial Intelligence (AI)-powered mobile and web-based safety platform for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM). The chapter explains the software development methodology selected for the project and justifies its suitability for the development of the proposed system. It further describes the various phases involved in the software development process, including requirements gathering and analysis, planning, design, development, testing, deployment, and review. In addition, the chapter presents the development tools and technologies that will be used during the implementation of the proposed system and concludes with a summary of the chapter.
+3.2 Software Development Methodology
+The development of the proposed Linda Binti system will adopt the Agile Software Development Methodology. Agile is an iterative and incremental software development approach that emphasizes collaboration, flexibility, continuous improvement, and regular user feedback throughout the software development life cycle. Unlike traditional software development methodologies, Agile allows software to be developed in small functional units known as iterations or sprints, enabling developers to improve the system continuously as new requirements emerge.
+The Agile Software Development Methodology was selected for this study because it is suitable for developing systems whose requirements may evolve during the development process. The proposed Linda Binti platform integrates several components, including user registration, emergency SOS alerts, GPS location sharing, AI-powered chatbot support, secure incident reporting, and a web-based administrative dashboard. Developing these components using Agile will allow each module to be designed, implemented, tested, reviewed, and improved independently before being integrated into the complete system.
+Furthermore, Agile encourages continuous interaction between developers and stakeholders throughout the project. This approach enables user feedback to be incorporated into every stage of development, thereby improving the quality, usability, reliability, and effectiveness of the proposed system. Since Linda Binti is intended to support individuals at risk of Gender-Based Violence (GBV) and Female Genital Mutilation (FGM), continuous refinement based on user needs is essential to ensure that the final system effectively addresses the identified challenges.
+Figure 3:Agile Software Development Technology
+Source: Adapted from Agile with Jira: A community guide(n.d.)
+3.2.1 Requirements Gathering and Analysis
+Requirements gathering and analysis is the first phase of the Agile Software Development Methodology. This phase involves identifying, collecting, analyzing, and documenting the needs and expectations of the intended users and stakeholders. It provides a clear understanding of the problem to be addressed and establishes the foundation for the successful design and development of the proposed system.
+For the proposed Linda Binti system, requirements will be gathered through a review of existing literature, consultation with potential users and stakeholders, and an analysis of existing digital safety platforms used to address Gender-Based Violence (GBV) and Female Genital Mutilation (FGM). This process will help identify the challenges experienced by users, the limitations of existing systems, and the features required to improve emergency response, confidential reporting, AI-powered support, and access to safety services.
+The identified requirements will be classified into functional and non-functional requirements. Functional requirements describe the specific services and feature that the system will provide, such as user registration, emergency SOS alerts, GPS location sharing, AI chatbot support, incident reporting, and access to a web-based administrative dashboard. Non-functional requirements describe the quality attributes of the system, including security, reliability, usability, performance, scalability, and data confidentiality. A comprehensive analysis of these requirements will ensure that the proposed Linda Binti platform is capable of meeting users’ needs while providing a secure, reliable, and user-friendly environment for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+3.2.2 Planning
+Planning is the second phase of the Agile Software Development Methodology. During this phase, the project scope, objectives, resources, development schedule, and deliverables are defined to guide the implementation of the proposed system. The planning phase ensures that the project is well organized and that all development activities are carried out systematically within the allocated time and available resources.
+For the proposed Linda Binti system, planning will involve identifying the software and hardware requirements, selecting appropriate development tools and technologies, defining project milestones, and preparing a development schedule. The planning process will also involve prioritizing system features so that the most critical functionalities, such as emergency SOS alerts, AI-powered chatbot support, GPS location sharing, and incident reporting, are developed and tested first. Effective planning will ensure that the project progresses efficiently while meeting the objectives of the study.
+3.2.3 Design
+The design phase involves translating the identified system requirements into a detailed blueprint for the proposed Linda Binti platform. During this phase, the system architecture, database structure, user interfaces, and system workflows will be designed to provide a clear guide for software development. The design process ensures that all system components work together efficiently while meeting user requirements.
+The proposed system will consist of a mobile application for end users and a web-based dashboard for authorized organizations. The mobile application will provide services such as user registration, emergency SOS activation, GPS location sharing, AI-powered chatbot support, and secure incident reporting. The web-based dashboard will enable authorized organizations to monitor reported incidents, analyze trends, and generate reports to support decision-making. The design will prioritize usability, security, reliability, and confidentiality to ensure that the system effectively supports the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+3.2.4 Development
+The development phase involves converting the approved system design into a functional software application. During this phase, the mobile application, web application, database, and Artificial Intelligence components will be developed using the selected programming languages, frameworks, and development tools. The system will be developed incrementally following the Agile Software Development Methodology, allowing each feature to be implemented, tested, reviewed, and improved before proceeding to the next iteration.
+The proposed Linda Binti platform will incorporate essential functionalities, including secure user registration and authentication, emergency SOS alerts, GPS location sharing, AI-powered chatbot support, confidential incident reporting, and a web-based dashboard for authorised organisations. Continuous collaboration and regular feedback throughout the development process will ensure that the system meets user requirements and project objectives.
+3.2.5 Testing
+Testing is an important phase of the Agile Software Development Methodology because it ensures that the developed system performs according to the specified requirements. During this phase, the functionality, performance, security, and usability of the proposed system will be evaluated to identify and correct any errors before deployment.
+For the proposed Linda Binti system, different testing techniques, including unit testing, integration testing, system testing, and user acceptance testing, will be conducted. These tests will verify that individual system components function correctly, interact effectively, and satisfy user requirements. Continuous testing throughout the development process will improve software quality and enhance the reliability of the proposed system.
+3.2.6 Deployment
+Deployment involves making the developed system available for use by the intended users. During this phase, the mobile application and web-based dashboard will be installed and configured within the selected operating environment. The deployment process will ensure that all system components operate correctly and are accessible to authorized users.
+The proposed Linda Binti platform will be deployed in a secure environment to safeguard user information and maintain confidentiality. Appropriate security measures will be implemented to protect sensitive data and ensure that the system provides reliable support to individuals seeking assistance.
+3.2.7 Review
+Review is the final phase of the Agile Software Development Methodology. This phase involves evaluating each completed development iteration to determine whether the project objectives have been achieved and to identify areas that require improvement. Feedback obtained from users and stakeholders will be used to refine system features and guide subsequent development activities.
+For the proposed Linda Binti system, the review process will involve assessing the effectiveness, usability, and reliability of the developed modules. The feedback received will support continuous improvement of the system and ensure that the final product effectively addresses the challenges associated with the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+3.3 Development Tools and Technologies
+The development of the proposed Linda Binti system will require the use of various software development tools and technologies to facilitate the design, implementation, testing, and deployment of the system. The selected tools have been chosen based on their compatibility, reliability, ease of use, and suitability for developing an AI-powered mobile and web-based safety platform. Table 3.1 presents the development tools and technologies that will be used during the implementation of the proposed system.
+Table 2: Development Tools And Technologies
+Development Tool/Technology
+Purpose
+Flutter
+To develop the cross-platform mobile application for Android devices.
+Android Studio
+To develop, run, test, and debug the mobile application.
+Visual Studio Code
+To write, edit, and manage the application’s source code.
+Firebase Authentication
+To provide secure user registration and login services.
+Firebase Firestore (Database)
+To securely store user information, emergency contacts, incident reports, and other application data.
+Google Maps API
+To provide GPS location tracking and location sharing during emergency situations.
+OpenAI API
+To integrate the AI-powered chatbot for providing confidential guidance and support to users.
+HTML, CSS and JavaScript
+To develop the web-based dashboard for authorized organizations, including NGOs, chiefs, and community officers.
+Git and GitHub
+To manage source code versions and facilitate collaborative software development.
+3.4 Chapter Summary
+This chapter has presented the software development methodology that will be adopted in the development of the proposed Linda Binti system. The Agile Software Development Methodology was selected because it supports iterative development, continuous user feedback, and flexibility throughout the software development process. The chapter has also described the various phases of the Agile methodology, beginning with requirements gathering and analysis, followed by planning, design, development, testing, deployment, and review. In addition, the development tools and technologies that will be used to implement the proposed system have been presented. The methodology outlined in this chapter provides a structured framework for the successful development of Linda Binti as an AI-powered mobile and web-based safety platform for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+APPENDICES
+Appendix I: QUESTIONNAIRE
+UMMA UNIVERSITY
+School of Business and Technology
+Bachelor of Science in Information Technology (BSIT)
+RESEARCH QUESTIONNAIRE
+Project Title: Linda Binti: An AI-Powered Mobile and Web-Based Safety Platform for the Prevention and Response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+Introduction
+I am Qathra Hamdi Ahmed, a Bachelor of Science in Information Technology (BSIT) student at Umma University. I am conducting this study as part of my research project. The purpose of this questionnaire is to collect information that will assist in the development of Linda Binti, an AI-powered mobile and web-based safety platform for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+The information you provide will be treated with the highest level of confidentiality and will be used strictly for academic purposes. Participation in this study is voluntary, and you may choose not to answer any question you are uncomfortable with.
+Thank you for your participation.
+Section A: Demographic Information
+1. Gender
+☐ Male
+☐ Female
+☐ Prefer not to say
+2. Age
+☐ Below 18 years
+☐ 18–25 years
+☐ 26–35 years
+☐ Above 35 years
+3. Occupation
+⸻
+4. Have you ever used a mobile application for personal safety or emergency reporting?
+☐ Yes
+☐ No
+Section B: Awareness and Challenges
+5. Do you think Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) remain significant challenges in your community?
+☐ Yes
+☐ No
+6. What challenges do victims face when reporting GBV or FGM incidents?
+⸻
+7. In your opinion, what discourages victims from seeking help?
+⸻
+Section C: Proposed Linda Binti System
+8. Do you think a mobile application could improve the reporting and prevention of GBV and FGM?
+☐ Yes
+☐ No
+9. Which of the following features would you consider most useful? (Tick all that apply.)
+☐ Emergency SOS alert
+☐ GPS location sharing
+☐ AI-powered chatbot
+☐ Secure incident reporting
+☐ Emergency contact notification
+☐ Web-based monitoring by authorized organizations
+10. Would you be willing to use a confidential AI-powered safety platform such as Linda Binti?
+☐ Yes
+☐ No
+11. What additional features would you recommend for the proposed system?
+⸻
+Thank You
+Thank you for taking the time to complete this questionnaire. Your responses are highly appreciated and will contribute to the successful development of the proposed Linda Binti system.
+Appendix II: INTERVIEW GUIDE
+UMMA UNIVERSITY
+School of Business and Technology
+Bachelor of Science in Information Technology (BSIT)
+INTERVIEW GUIDE
+Project Title: Linda Binti: An AI-Powered Mobile and Web-Based Safety Platform for the Prevention and Response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+Introduction
+I am Qathra Hamdi Ahmed, a Bachelor of Science in Information Technology (BSIT) student at Umma University. I am conducting this study as part of my research project. The purpose of this interview is to gather information that will contribute to the development of Linda Binti, an AI-powered mobile and web-based safety platform for the prevention and response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM). The information provided will be treated with strict confidentiality and used solely for academic purposes.
+Interview Questions
+1. What are the major challenges faced by victims of Gender-Based Violence (GBV) and Female Genital Mutilation (FGM) when seeking help?
+2. What challenges do organizations encounter when responding to GBV and FGM cases?
+3. What methods are currently used to report GBV and FGM incidents in your organization or community?
+4. In your opinion, what limitations exist in the current reporting and response mechanisms?
+5. How can technology help improve the prevention and response to GBV and FGM?
+6. What features would you recommend for a mobile and web-based safety platform designed to support victims of GBV and FGM?
+7. How important do you think emergency SOS alerts and GPS location sharing would be in assisting victims during emergencies?
+8. How do you think an AI-powered chatbot could support individuals seeking confidential guidance and information?
+9. What measures should be included to ensure the privacy and security of users’ information?
+10. Do you have any additional comments or recommendations that would improve the proposed Linda Binti system?
+⸻
+Thank You
+Thank you for taking the time to participate in this interview. Your valuable insights and recommendations will contribute significantly to the successful development of the proposed Linda Binti system.
+Appendix III: PROJECT SCHEDULE
+UMMA UNIVERSITY
+School of Business and Technology
+Bachelor of Science in Information Technology (BSIT)
+PROJECT SCHEDULE (GANTT CHART)
+Project Title: Linda Binti: An AI-Powered Mobile and Web-Based Safety Platform for the Prevention and Response to Gender-Based Violence (GBV) and Female Genital Mutilation (FGM).
+The table below presents the proposed schedule for the Linda Binti project.
+Table 3: Project Schedule
+Activity
+May
+June
+July
+August
+September
+October
+November
+December
+Proposal writing
+✓
+✓
+✓
+Literature review
+✓
+✓
+✓
+Proposal correction and final submission
+✓
+Proposal presentation
+✓
+Requirements gathering and analysis
+✓
+✓
+System design
+✓
+✓
+System development
+✓
+✓
+✓
+System testing
+✓
+System documentation
+✓
+✓
+Final project presentation and submission
+✓
+REFERENCES
+Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. MIS Quarterly, 13(3), 319–340.
+Rogers, R. W. (1975). A protection motivation theory of fear appeals and attitude change. The Journal of Psychology, 91(1), 93–114.
+UNICEF. (2023). Digital technologies for child protection. Retrieved from https://www.unicef.org
+UNICEF. (2024). Female genital mutilation (FGM): Data and statistics. Retrieved from https://data.unicef.org
+UNICEF. (2025). Female genital mutilation. Retrieved from https://www.unicef.org
+UN Women. (2024). Ending violence against women. Retrieved from https://www.unwomen.org
+UN Women. (2025). Research and data on ending violence against women. Retrieved from https://www.unwomen.org
+World Health Organization. (2021). Violence against women. Retrieved from https://www.who.int
+World Health Organization. (2024). Violence against women. Retrieved from https://www.who.int

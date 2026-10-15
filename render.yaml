@@ -1,0 +1,39 @@
+# Render.com — deploy LINDA BINTI to https://lindabinti.com
+# Docs: https://render.com/docs/blueprint-spec
+# Set secrets in the Render dashboard (never commit real keys).
+services:
+  - type: web
+    name: lindabinti
+    runtime: docker
+    dockerfilePath: ./deploy/Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /v1/health
+    autoDeploy: true
+    disk:
+      name: lindabinti-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: LINDA_ENV
+        value: production
+      - key: LINDA_PUBLIC_URL
+        value: https://lindabinti.com
+      - key: LINDA_DB_URL
+        value: jdbc:sqlite:/var/data/linda_binti_backend.db
+      - key: LINDA_DEMO_SEED
+        value: "0"
+      - key: LINDA_JWT_SECRET
+        generateValue: true
+      - key: LINDA_USSD_GATEWAY_SECRET
+        sync: false
+      - key: LINDA_SEED_ADMIN_EMAIL
+        value: admin@lindabinti.com
+      - key: LINDA_AI_ENABLED
+        value: "1"
+      - key: LINDA_AI_API_KEY
+        sync: false
+      - key: LINDA_AI_BASE_URL
+        value: https://api.openai.com
+      - key: LINDA_AI_MODEL
+        value: gpt-4o-mini

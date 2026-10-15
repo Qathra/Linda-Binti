@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.UssdMenuServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:47.354Z" hostname="DESKTOP-4UJPGRK" time="0.0">
+  <properties/>
+  <testcase name="fgmTypedAreaThenName" classname="com.lindabinti.backend.UssdMenuServiceTest" time="0.0"/>
+  <testcase name="unknownChoiceReturnsMenu" classname="com.lindabinti.backend.UssdMenuServiceTest" time="0.0"/>
+  <testcase name="gbvThenAreaThenNameQueuesReport" classname="com.lindabinti.backend.UssdMenuServiceTest" time="0.0"/>
+  <testcase name="fgmUsesEastWhenUserPicksTwo" classname="com.lindabinti.backend.UssdMenuServiceTest" time="0.0"/>
+  <testcase name="emergencyNumbersDoNotCollectIdentity" classname="com.lindabinti.backend.UssdMenuServiceTest" time="0.0"/>
+  <testcase name="emptyTextShowsSimpleSafaricomStyleMenu" classname="com.lindabinti.backend.UssdMenuServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

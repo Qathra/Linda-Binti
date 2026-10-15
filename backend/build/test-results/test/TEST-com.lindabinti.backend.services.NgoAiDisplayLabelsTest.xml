@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:49.396Z" hostname="DESKTOP-4UJPGRK" time="0.0">
+  <properties/>
+  <testcase name="sourceLabelsMatchSpec" classname="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" time="0.0"/>
+  <testcase name="whyFlaggedUsesIndicatorsNotRawBody" classname="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" time="0.0"/>
+  <testcase name="engineNotConfiguredWhenOnlineDisabled" classname="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" time="0.0"/>
+  <testcase name="caseStatusWorkingForHybridComplete" classname="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" time="0.0"/>
+  <testcase name="caseStatusShowsFallbackWhenRulesUsedWithOnlineConfigured" classname="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" time="0.0"/>
+  <testcase name="incidentTypeMapping" classname="com.lindabinti.backend.services.NgoAiDisplayLabelsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

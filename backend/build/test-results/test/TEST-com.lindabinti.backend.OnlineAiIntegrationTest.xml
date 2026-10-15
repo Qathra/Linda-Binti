@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.OnlineAiIntegrationTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:38.314Z" hostname="DESKTOP-4UJPGRK" time="6.81">
+  <properties/>
+  <testcase name="fgmClassificationViaOnlineProvider" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.704"/>
+  <testcase name="consentDeniedBlocksCloudAnalyze" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.586"/>
+  <testcase name="assistantChatOnlineFlow" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.557"/>
+  <testcase name="privacyRedactsPhoneBeforeProviderCall" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.545"/>
+  <testcase name="gbvClassificationViaOnlineProvider" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.544"/>
+  <testcase name="survivorAnalyzeReturnsOnlineResult" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.559"/>
+  <testcase name="healthShowsNotConfiguredWhenDisabled" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.274"/>
+  <testcase name="reportToNgoFlagToIntelligenceWithOnlineAi" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.843"/>
+  <testcase name="capabilitiesReflectConfiguredProvider" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.288"/>
+  <testcase name="healthShowsOnlineAiStatusWithoutKey" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.279"/>
+  <testcase name="invalidApiKeyReturnsExplicitError" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.544"/>
+  <testcase name="providerTimeoutReturnsFallbackRecommendation" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.546"/>
+  <testcase name="openAiCompatibleProviderInvalidKeyThrows" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.001"/>
+  <testcase name="offlineFallbackWhenAiDisabled" classname="com.lindabinti.backend.OnlineAiIntegrationTest" time="0.539"/>
+  <system-out><![CDATA[18:24:38.317 [DefaultDispatcher-worker-10 @call-context#672] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:38.634 [DefaultDispatcher-worker-10 @call-context#672] INFO  ktor.test - Application started in 0.317 seconds.
+18:24:38.634 [DefaultDispatcher-worker-3 @coroutine#674] INFO  ktor.test - Responding at http://localhost:80
+18:24:38.634 [DefaultDispatcher-worker-3 @coroutine#674] INFO  ktor.test - Responding at https://localhost:443
+18:24:39.021 [DefaultDispatcher-worker-10 @call-context#685] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:39.318 [DefaultDispatcher-worker-10 @call-context#685] INFO  ktor.test - Application started in 0.297 seconds.
+18:24:39.318 [DefaultDispatcher-worker-6 @coroutine#687] INFO  ktor.test - Responding at http://localhost:80
+18:24:39.318 [DefaultDispatcher-worker-6 @coroutine#687] INFO  ktor.test - Responding at https://localhost:443
+18:24:39.606 [DefaultDispatcher-worker-3 @call-context#698] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:39.883 [DefaultDispatcher-worker-3 @call-context#698] INFO  ktor.test - Application started in 0.277 seconds.
+18:24:39.883 [DefaultDispatcher-worker-7 @coroutine#700] INFO  ktor.test - Responding at http://localhost:80
+18:24:39.883 [DefaultDispatcher-worker-7 @coroutine#700] INFO  ktor.test - Responding at https://localhost:443
+18:24:40.164 [DefaultDispatcher-worker-9 @call-context#711] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:40.435 [DefaultDispatcher-worker-9 @call-context#711] INFO  ktor.test - Application started in 0.271 seconds.
+18:24:40.436 [DefaultDispatcher-worker-8 @coroutine#713] INFO  ktor.test - Responding at http://localhost:80
+18:24:40.436 [DefaultDispatcher-worker-8 @coroutine#713] INFO  ktor.test - Responding at https://localhost:443
+18:24:40.709 [DefaultDispatcher-worker-9 @call-context#724] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:40.976 [DefaultDispatcher-worker-9 @call-context#724] INFO  ktor.test - Application started in 0.267 seconds.
+18:24:40.977 [DefaultDispatcher-worker-6 @coroutine#726] INFO  ktor.test - Responding at http://localhost:80
+18:24:40.977 [DefaultDispatcher-worker-6 @coroutine#726] INFO  ktor.test - Responding at https://localhost:443
+18:24:41.255 [DefaultDispatcher-worker-8 @call-context#737] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:41.534 [DefaultDispatcher-worker-8 @call-context#737] INFO  ktor.test - Application started in 0.279 seconds.
+18:24:41.534 [DefaultDispatcher-worker-9 @coroutine#739] INFO  ktor.test - Responding at http://localhost:80
+18:24:41.534 [DefaultDispatcher-worker-9 @coroutine#739] INFO  ktor.test - Responding at https://localhost:443
+18:24:41.812 [DefaultDispatcher-worker-8 @call-context#750] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:42.082 [DefaultDispatcher-worker-8 @call-context#750] INFO  ktor.test - Application started in 0.27 seconds.
+18:24:42.083 [DefaultDispatcher-worker-5 @coroutine#752] INFO  ktor.test - Responding at http://localhost:80
+18:24:42.083 [DefaultDispatcher-worker-5 @coroutine#752] INFO  ktor.test - Responding at https://localhost:443
+18:24:42.087 [DefaultDispatcher-worker-9 @call-context#759] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:42.358 [DefaultDispatcher-worker-9 @call-context#759] INFO  ktor.test - Application started in 0.272 seconds.
+18:24:42.358 [DefaultDispatcher-worker-10 @coroutine#761] INFO  ktor.test - Responding at http://localhost:80
+18:24:42.358 [DefaultDispatcher-worker-10 @coroutine#761] INFO  ktor.test - Responding at https://localhost:443
+18:24:42.928 [DefaultDispatcher-worker-8 @call-context#784] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:43.212 [DefaultDispatcher-worker-8 @call-context#784] INFO  ktor.test - Application started in 0.284 seconds.
+18:24:43.212 [DefaultDispatcher-worker-11 @coroutine#786] INFO  ktor.test - Responding at http://localhost:80
+18:24:43.212 [DefaultDispatcher-worker-11 @coroutine#786] INFO  ktor.test - Responding at https://localhost:443
+18:24:43.216 [DefaultDispatcher-worker-8 @call-context#793] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:43.491 [DefaultDispatcher-worker-8 @call-context#793] INFO  ktor.test - Application started in 0.275 seconds.
+18:24:43.491 [DefaultDispatcher-worker-11 @coroutine#795] INFO  ktor.test - Responding at http://localhost:80
+18:24:43.491 [DefaultDispatcher-worker-11 @coroutine#795] INFO  ktor.test - Responding at https://localhost:443
+18:24:43.496 [DefaultDispatcher-worker-11 @call-context#802] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:43.769 [DefaultDispatcher-worker-11 @call-context#802] INFO  ktor.test - Application started in 0.273 seconds.
+18:24:43.770 [DefaultDispatcher-worker-10 @coroutine#804] INFO  ktor.test - Responding at http://localhost:80
+18:24:43.770 [DefaultDispatcher-worker-10 @coroutine#804] INFO  ktor.test - Responding at https://localhost:443
+18:24:44.040 [DefaultDispatcher-worker-8 @call-context#815] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:44.310 [DefaultDispatcher-worker-8 @call-context#815] INFO  ktor.test - Application started in 0.27 seconds.
+18:24:44.310 [DefaultDispatcher-worker-10 @coroutine#817] INFO  ktor.test - Responding at http://localhost:80
+18:24:44.311 [DefaultDispatcher-worker-10 @coroutine#817] INFO  ktor.test - Responding at https://localhost:443
+18:24:44.587 [DefaultDispatcher-worker-1 @call-context#828] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+18:24:44.855 [DefaultDispatcher-worker-1 @call-context#828] INFO  ktor.test - Application started in 0.269 seconds.
+18:24:44.856 [DefaultDispatcher-worker-10 @coroutine#830] INFO  ktor.test - Responding at http://localhost:80
+18:24:44.856 [DefaultDispatcher-worker-10 @coroutine#830] INFO  ktor.test - Responding at https://localhost:443
+]]></system-out>
+  <system-err><![CDATA[AI[orchestrate_survivor_analyze] category=fgm_incident includeDescription=true
+AI[analyze_ok] provider=openai-compatible model=gpt-4o-mini attempt=1 durationMs=0 category=FGM_THREAT
+AI[orchestrate_survivor_analyze] category=physical includeDescription=true
+AI[analyze_ok] provider=openai-compatible model=gpt-4o-mini attempt=1 durationMs=1 category=FGM_THREAT
+AI[orchestrate_survivor_analyze] category=physical includeDescription=true
+AI[analyze_ok] provider=openai-compatible model=gpt-4o-mini attempt=1 durationMs=1 category=GBV
+AI[orchestrate_survivor_analyze] category=fgm_pressure includeDescription=true
+AI[analyze_ok] provider=openai-compatible model=gpt-4o-mini attempt=1 durationMs=1 category=FGM_THREAT
+AI[orchestrate_survivor_analyze] category=physical includeDescription=true
+AI[failure] code=http_error status=unavailable detail=status=401
+AI[orchestrate_survivor_analyze] category=physical includeDescription=true
+AI[failure] code=timeout status=timeout detail=attempt=1
+AI[failure] code=http_error status=unavailable detail=status=401
+]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lindabinti.backend.ai.AiResultMergerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:47.358Z" hostname="DESKTOP-4UJPGRK" time="0.001">
+  <properties/>
+  <testcase name="mergeSurvivorOnlineKeepsHigherOfflineSeverity" classname="com.lindabinti.backend.ai.AiResultMergerTest" time="0.0"/>
+  <testcase name="mergeNgoUsesOfflineWhenOnlineFails" classname="com.lindabinti.backend.ai.AiResultMergerTest" time="0.0"/>
+  <testcase name="mergeNgoPrefersHigherSeverityWithOnlineExplanation" classname="com.lindabinti.backend.ai.AiResultMergerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
