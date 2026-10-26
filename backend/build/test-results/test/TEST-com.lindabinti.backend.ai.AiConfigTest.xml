@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.lindabinti.backend.ai.AiConfigTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-21T15:24:47.357Z" hostname="DESKTOP-4UJPGRK" time="0.0">
-  <properties/>
-  <testcase name="configuredWhenEnabledFlagAndCredentialsPresent" classname="com.lindabinti.backend.ai.AiConfigTest" time="0.0"/>
-  <testcase name="notConfiguredWhenDisabled" classname="com.lindabinti.backend.ai.AiConfigTest" time="0.0"/>
-  <testcase name="notConfiguredWhenKeyMissing" classname="com.lindabinti.backend.ai.AiConfigTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.lindabinti.backend.ai.LiveOnlineAiProviderTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2026-09-21T15:24:48.726Z" hostname="DESKTOP-4UJPGRK" time="0.009">
-  <properties/>
-  <testcase name="liveSurvivorAnalyzeAgainstRealProvider" classname="com.lindabinti.backend.ai.LiveOnlineAiProviderTest" time="0.009">
-    <skipped/>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

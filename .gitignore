@@ -8,7 +8,7 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
+build/
 /captures
 .externalNativeBuild
 .cxx
@@ -17,3 +17,13 @@ local.properties
 backend/.env
 .env
 *.secret
+
+# Generated or machine-local files that should not appear on GitHub
+node_modules/
+.idea/
+.kotlin/
+_docx_extract/
+_abbr_styles.js
+_abbr_scan/
+docs/_ch4_word_source.html
+docs/_scan_figmentions.js
