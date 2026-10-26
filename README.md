@@ -1,4 +1,4 @@
-# 🇰🇪 Linda Binti
+#  Linda Binti
 
 An Android and web platform for the prevention of, and response to, gender-based violence (GBV) and female genital mutilation (FGM) in Kajiado County, Kenya. Developed with Kotlin and Android Studio.
 
@@ -83,7 +83,11 @@ Download the APK from the latest GitHub release:
 
 **Qathra Hamdi Ahmed**
 
-Bachelor of Science in Information Technology | Umma University | BSIT/2024/52344
+Bachelor of Science in Information Technology | Umma University
+💻 Interests: AI, Cybersecurity & Android Development
+🌟 Former Vice President, Umma University Student Council
+❤️ Former Chairlady, Umma University Red Cross Chapter
+🚀 Creator of Linda Binti | Technology for Social Impact
 
 ## Project Status
 
