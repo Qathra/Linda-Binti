@@ -1,6 +1,0 @@
-# Keep the language bar on the product, not thesis figures or one-off scripts.
-docs/** linguist-documentation
-docs/figures/** linguist-vendored
-tools/** linguist-vendored
-deploy/** linguist-vendored
-*.png linguist-generated

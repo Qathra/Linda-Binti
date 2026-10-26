@@ -1,0 +1,329 @@
+19	Heading1	DECLARATION
+41	Heading1	SUPERVISOR’S DECLARATION
+64	Heading1	ACKNOWLEDGEMENT
+81	Heading1	DEDICATION
+103	Heading1	ABSTRACT
+105		The study adopted a descriptive research design to identify user needs and requirements relevant to the development of the application. Primary data were collected using a structured questionnaire, while secondary inform
+108	Heading1	TABLE OF CONTENTS
+109	TOC1	DECLARATIONii
+110	TOC1	SUPERVISOR’S DECLARATIONiii
+111	TOC1	ACKNOWLEDGEMENTiv
+112	TOC1	DEDICATIONv
+113	TOC1	ABSTRACTvi
+114	TOC1	CHAPTER ONE: INTRODUCTION1
+115	TOC2	1.1 Introduction1
+116	TOC2	1.2 Background of the Study1
+117	TOC2	1.3 Problem Statement3
+118	TOC2	1.3 Research Objectives4
+119	TOC2	1.5 Justification of the Study5
+120	TOC2	1.6 Limitation of the Study6
+121	TOC2	1.7 Organization of the Study6
+122	TOC2	1.8 Summary7
+123	TOC1	CHAPTER TWO: LITERATURE REVIEW8
+124	TOC2	2.1 Introduction8
+125	TOC2	2.2 Review of Existing Literature9
+126	TOC3	2.2.1 Gender-Based Violence9
+127	TOC3	2.2.2 Female Genital Mutilation11
+128	TOC3	2.2.3 Culture and Social Norms Influencing GBV and FGM13
+129	TOC3	2.2.4 GBV and FGM in Kenya and Kajiado County16
+130	TOC3	2.2.5 Existing Digital Solutions for GBV and FGM Prevention and Response17
+131	TOC3	2.2.6 Artificial Intelligence in GBV and FGM Support19
+132	TOC3	2.2.7 Mobile Applications and Emergency Communication20
+133	TOC3	2.2.8 GPS and Location-Based Emergency Support21
+134	TOC3	2.2.9 Web-Based Monitoring and Data Visualisation21
+135	TOC2	2.3 Theoretical Framework22
+136	TOC3	2.3.1 Technology Acceptance Model23
+137	TOC3	2.3.2 Protection Motivation Theory23
+138	TOC2	2.4 Research Gap24
+139	TOC2	2.5 Chapter Summary26
+140	TOC1	CHAPTER THREE: SOFTWARE DEVELOPMENT METHODOLOGY27
+141	TOC2	3.1 Introduction27
+142	TOC2	3.2 Agile Methodology27
+143	TOC3	3.2.1 Requirements28
+144	TOC3	3.2.2 Design31
+145	TOC3	3.2.3 Development32
+146	TOC3	3.2.4 Testing35
+147	TOC2	3.2.5 Deployment36
+148	TOC3	3.2.6 Review37
+149	TOC3	3.2.7 Launch38
+150	TOC2	3.3 Summary39
+151	TOC1	CHAPTER FOUR: REQUIREMENT GATHERING AND ANALYSIS40
+152	TOC2	4.1 Introduction40
+153	TOC2	4.2 Data Collection Methods40
+154	TOC3	4.2.1 Primary Data Collection40
+155	TOC3	4.2.2 Secondary Data Collection58
+156	TOC2	4.3 Summary59
+157	TOC1	CHAPTER FIVE: SYSTEM DESIGN60
+158	TOC2	5.1 Introduction60
+159	TOC2	5.2 System Design60
+160	TOC3	5.2.1 UML Structural Design Tools60
+161	TOC3	5.2.2 UML Behavioural Design Tools64
+162	TOC2	5.3 Database Design67
+163	TOC3	5.3.1 Entity Relationship Diagram67
+164	TOC3	5.3.2 Database Schema69
+165	TOC3	5.3.3 Mapping the ERD to a Relational Database70
+166	TOC2	5.4 Front Wireframes71
+167	TOC3	5.4.1 Login and Access Wireframe71
+168	TOC3	5.4.2 Home Screen Wireframe79
+169	TOC3	5.4.3 Education Module Wireframe80
+170	TOC3	5.4.4 Reporting Module Wireframe81
+171	TOC3	5.4.5 Risk Assessment and Safety Compass Wireframe82
+172	TOC3	5.4.6 Emergency Assistance and Trusted Contacts Wireframe83
+173	TOC3	5.4.7 Survivor Support Wireframe84
+174	TOC3	5.4.8 AI Assistant Wireframe85
+175	TOC3	5.4.9 Settings and Privacy Wireframe86
+176	TOC3	5.5 Back End Wireframes87
+177	TOC3	5.5.1 Backend API and Service Design87
+178	TOC3	5.5.2 NGO Dashboard Wireframe88
+179	TOC3	5.5.3 USSD Interface Design89
+180	TOC3	5.5.4 Backend Security and Authorisation Design90
+181	TOC2	5.6 Summary91
+182	TOC1	CHAPTER SIX: SYSTEM DEVELOPMENT92
+183	TOC2	6.1 Introduction92
+184	TOC2	6.2 Development Environment92
+185	TOC2	6.3 Mobile Application Development93
+186	TOC3	6.3.1 Application Launcher and Access Control93
+187	TOC3	6.3.2 Home and Navigation94
+188	TOC3	6.3.3 Education Module94
+189	TOC3	6.3.4 Reporting Module96
+190	TOC3	6.3.5 Risk Assessment and Safety Compass96
+191	TOC3	6.3.6 Emergency Assistance and Trusted Contacts97
+192	TOC3	6.3.7 Survivor Support98
+193	TOC3	6.3.8 AI Assistant98
+194	TOC3	6.3.9 Settings and Privacy99
+195	TOC2	6.4 Backend Development100
+196	TOC3	6.4.1 Backend Services and API100
+197	TOC3	6.4.2 Database Implementation100
+198	TOC3	6.4.3 Authentication and Authorisation101
+199	TOC3	6.4.4 AI Integration102
+200	TOC3	6.4.5 Dashboard Development102
+201	TOC3	6.4.6 USSD Development103
+202	TOC2	6.5 System Integration103
+203	TOC2	6.6 System Security and Privacy Implementation104
+204	TOC2	6.7 System Deployment and Configuration105
+205	TOC2	6.8 Chapter Summary106
+206	TOC1	CHAPTER SEVEN: SYSTEM TESTING AND EVALUATION107
+207	TOC2	7.1 Introduction107
+208	TOC2	7.2 Testing Strategy107
+209	TOC2	7.3 Testing Environment108
+210	TOC2	7.4 Functional Testing108
+211	TOC3	7.4.1 Mobile Application Testing108
+212	TOC3	7.4.2 Backend and API Testing110
+213	TOC2	7.5 Integration Testing110
+214	TOC2	7.6 Security and Privacy Testing111
+215	TOC3	7.6.1 Access Control Testing112
+216	TOC3	7.6.2 Authentication and Authorisation Testing112
+217	TOC3	7.6.3 Data Protection Testing112
+218	TOC3	7.6.4 Emergency and Location Privacy Testing113
+219	TOC3	7.6.5 Dashboard Privacy Testing113
+220	TOC2	7.7 Test Results113
+221	TOC2	7.8 Usability and Requirement Validation114
+222	TOC2	7.9 Limitations of Testing115
+223	TOC2	7.10 Chapter Summary116
+227	Heading1	LIST OF TABLES
+253	Heading1	LIST OF FIGURES
+263	Heading1	ACRONYMS/ABBREVIATION
+265	Heading1	CHAPTER ONE: INTRODUCTION
+266	Heading2	1.1 Introduction
+268	Heading2	1.2 Background of the Study
+277	Heading2	1.3 Problem Statement
+283	Heading2	1.3 Research Objectives
+289	Heading2	1.5 Justification of the Study
+296	Heading2	1.6 Limitation of the Study
+298		Second, the primary data collection was based on responses obtained from selected respondents through a questionnaire. The findings therefore reflected the views of the respondents who participated in the study and did n
+301	Heading2	1.7 Organization of the Study
+303	Heading2	1.8 Summary
+316	Heading1	CHAPTER TWO: LITERATURE REVIEW
+317	Heading2	2.1 Introduction
+318		Literature review provides the academic foundation for understanding the existing knowledge, evidence, theories and technological approaches related to gender-based violence (GBV) and female genital mutilation (FGM). In 
+319	Heading2	2.2 Review of Existing Literature
+321	Heading3	2.2.1 Gender-Based Violence
+331	Heading3	2.2.2 Female Genital Mutilation
+340	Heading3	2.2.3 Culture and Social Norms Influencing GBV and FGM
+355	Heading3	2.2.4 GBV and FGM in Kenya and Kajiado County
+365	Heading3	2.2.5 Existing Digital Solutions for GBV and FGM Prevention and Response
+373	Heading3	2.2.6 Artificial Intelligence in GBV and FGM Support
+380	Heading3	2.2.7 Mobile Applications and Emergency Communication
+387	Heading3	2.2.8 GPS and Location-Based Emergency Support
+392	Heading3	2.2.9 Web-Based Monitoring and Data Visualisation
+395		Linda Binti included a browser-based dashboard implemented using HTML, CSS and JavaScript, with Leaflet used for map-based visualisation. Access was restricted according to staff and administrator roles. The dashboard wa
+398	Heading2	2.3 Theoretical Framework
+400	Heading3	2.3.1 Technology Acceptance Model
+406	Heading3	2.3.2 Protection Motivation Theory
+412	Heading2	2.4 Research Gap
+419	Heading2	2.5 Chapter Summary
+430	Heading1	CHAPTER THREE: SOFTWARE DEVELOPMENT METHODOLOGY
+431	Heading2	3.1 Introduction
+432		This chapter presents the software development methodology used in the development of the Linda Binti application, an AI-powered mobile and web-based platform for the prevention and response to Gender-Based Violence (GBV
+433	Heading2	3.2 Agile Methodology
+437		Figure 3.1: Agile Methodology
+439	Heading3	3.2.1 Requirements
+441		The requirements for Linda Binti were informed by both primary and secondary data. Primary data were collected using a structured questionnaire administered through Google Forms, while secondary data were obtained from a
+443		The structured questionnaire was selected as the primary data collection instrument because it allowed respondents to receive the same set of questions in a consistent format. Structured questionnaires are useful where r
+444		Google Forms was suitable for administering the questionnaire because it provided an accessible online platform for distributing the instrument and organising collected responses. Online questionnaires can support effici
+445		The questionnaire consisted of 15 questions covering respondents’ demographic information, understanding of GBV and FGM, barriers to reporting and seeking assistance, the importance of confidentiality, smartphone access,
+446		Secondary data collection complemented the questionnaire by providing established information from existing sources. Relevant academic literature, reports, policies and previous studies were reviewed to understand the na
+449	Heading3	3.2.2 Design
+452		The completed system consisted of an Android mobile application and a browser-based dashboard supported by backend services. The mobile application was developed using Kotlin and Jetpack Compose. Local application data w
+456	Heading3	3.2.3 Development
+462		The backend was implemented using Ktor and provided HTTP-based API services required by the mobile application and dashboard. SQLite was used for the pilot-scale backend database. The browser-based dashboard was develope
+481		Table 3.1: Development Tools and Technologies
+508		LeafletMap-based
+519	Heading3	3.2.4 Testing
+522		Functional testing was used to determine whether individual functions produced the expected results. Integration testing was used to examine interactions between different system components. Software testing can be condu
+527	Heading2	3.2.5 Deployment
+534	Heading3	3.2.6 Review
+537		For Linda Binti, review involved comparing the developed functionality with the requirements obtained from the questionnaire and secondary sources. The implemented system was also reviewed during development and testing 
+542	Heading3	3.2.7 Launch
+547		The project did not implement automatic police dispatch, continuous survivor tracking or a live licensed USSD shortcode. USSD-related functionality remained within the defined prototype and API scope. Maintaining these b
+548	Heading2	3.3 Summary
+558	Heading1	CHAPTER FOUR: REQUIREMENT GATHERING AND ANALYSIS
+559	Heading2	4.1 Introduction
+560		This chapter presents the process used to gather and analyse information for the development of Linda Binti: An AI-Powered Application for the Prevention and Response to Gender-Based Violence and Female Genital Mutilatio
+561	Heading2	4.2 Data Collection Methods
+563	Heading3	4.2.1 Primary Data Collection
+564		Primary data were collected using a structured questionnaire prepared specifically for the study. A questionnaire provides a systematic means of obtaining information from respondents through a consistent set of question
+565		The questionnaire was administered electronically through Google Forms and shared with selected respondents familiar with the study area and issues surrounding GBV, FGM and the use of digital technology. Electronic quest
+566		The questionnaire consisted of fifteen questions divided into three sections. The first section focused on demographic information, respondents’ understanding of GBV and FGM, and factors that may make it difficult for in
+567		The questionnaire was designed to collect information that could directly support the identification of system requirements. For example, questions concerning reporting barriers informed the need for confidential and acc
+568		The questionnaire responses were analysed using descriptive methods. Descriptive analysis involves organising, summarising and presenting collected information in a form that makes the findings easier to understand and i
+569		The results were presented using graphical representations generated from Google Forms. Graphical presentation provides a visual method of communicating patterns and distributions within collected data and assists in the
+570		The questionnaire also included an open-ended question that allowed respondents to provide additional features, services or recommendations. These responses were reviewed and grouped according to recurring ideas and them
+571		The questionnaire findings are presented below in the same order in which the questions appeared in the questionnaire. The findings are based only on the responses actually received through Google Forms, and no responses
+685		The findings provided several additional suggestions for improving a digital platform supporting GBV and FGM prevention and response in Kajiado County. Four respondents recommended the use of USSD, indicating a need for 
+686		The responses contributed to the development of Linda Binti by supporting the consideration of USSD as an additional access channel for users who may have limited access to smartphones or internet services. The recommend
+687	Heading3	4.2.2 Secondary Data Collection
+692		The secondary information was compared with the primary findings obtained from the questionnaire. This comparison helped identify areas of agreement and issues that required consideration during the development of Linda 
+695		The information obtained from secondary sources therefore complemented the primary data collected through the questionnaire. While primary data provided direct information from selected respondents, secondary data provid
+696	Heading2	4.3 Summary
+697		This chapter presented the process used to gather and analyse information for the development of Linda Binti. Primary data were collected using a structured fifteen-question questionnaire administered through Google Form
+699	Heading1	CHAPTER FIVE: SYSTEM DESIGN
+700	Heading2	5.1 Introduction
+701		This chapter presents the design of the Linda Binti application before and during the implementation process. The design was developed from the requirements identified and analysed in Chapter Four and provided the basis 
+702	Heading2	5.2 System Design
+705	Heading3	5.2.1 UML Structural Design Tools
+707	Heading4	5.2.1.1 Class Diagram
+708		The class diagram represents the major classes and their relationships within the Linda Binti system. The design includes classes and data structures associated with users, reports, trusted contacts, risk assessments, ed
+712		Figure 5.1: Class Diagram of Linda Binti
+716	Heading4	5.2.1.2 Component Diagram
+718		The Android application communicates with the backend through HTTP requests when online services are required. The backend manages authentication, report synchronisation, AI requests, dashboard information, education con
+720		Figure 5.2: Component Diagram of Linda Binti
+723	Heading4	5.2.1.3 Deployment Diagram
+725		The Android device hosts the Linda Binti mobile application and its local databases. The backend is hosted as a Kotlin/Ktor service using Netty and SQLite. The NGO dashboard is served by the backend and accessed through 
+727		Figure 5.3: Deployment Diagram of Linda Binti
+731	Heading3	5.2.2 UML Behavioural Design Tools
+733	Heading4	5.2.2.1 Use Case Diagram
+737		Figure 5.4: Use Case Diagram of Linda Binti
+740	Heading4	5.2.2.2 Activity Diagram
+745		Figure 5.5: Activity Diagram for the Linda Binti Reporting Process
+747	Heading4	5.2.2.3 Sequence Diagram
+750		Figure 5.6: Sequence Diagram for Report Synchronisation
+759	Heading2	5.3 Database Design
+763	Heading3	5.3.1 Entity Relationship Diagram
+783		Figure 5.7: Entity Relationship Diagram for Linda Binti
+793	Heading3	5.3.2 Database Schema
+796		Table
+812		Table 5.1: Local Database Schema
+822		Table 5.2: Backend Database Schema
+823		Table
+844	Heading3	5.3.3 Mapping the ERD to a Relational Database
+853		Figure 5.8: Mapping of ERD to Relational Database Tables
+855	Heading2	5.4 Front Wireframes
+857	Heading3	5.4.1 Login and Access Wireframe
+864		Figure 5.9 login and access wireframe
+876	Heading3	5.4.2 Home Screen Wireframe
+881		Figure 5.10: Linda Binti Home Screen Wireframe
+882	Heading3	5.4.3 Education Module Wireframe
+885		Figure 5.11: Education Module Wireframe
+888	Heading3	5.4.4 Reporting Module Wireframe
+893		Figure 5.12: Reporting Module Wireframe
+894	Heading3	5.4.5 Risk Assessment and Safety Compass Wireframe
+898		Figure 5.13: Risk Assessment and Safety Compass Wireframe
+901	Heading3	5.4.6 Emergency Assistance and Trusted Contacts Wireframe
+906		Figure 5.14: Emergency Assistance and Trusted Contacts Wireframe
+907	Heading3	5.4.7 Survivor Support Wireframe
+912		Figure 5.15: Survivor Support Wireframe
+917	Heading3	5.4.8 AI Assistant Wireframe
+921		Figure 5.16: AI Assistant Wireframe
+922	Heading3	5.4.9 Settings and Privacy Wireframe
+927		Figure 5.17: Settings and Privacy Wireframe
+931	Heading3	5.5 Back End Wireframes
+932		The back-end design represents the services and administrative interfaces supporting the Linda Binti application. The backend was implemented using Kotlin/JVM and Ktor with Netty, while the web-based NGO dashboard was im
+933		The backend provides authentication, report management, AI services, education content, support services, analytics, dashboard services, administrative services and a gateway-ready USSD pathway.
+935	Heading3	5.5.1 Backend API and Service Design
+936		The backend API was designed around separate services responsible for specific system functions. These include authentication, reporting, AI orchestration, education content, support services, analytics, NGO intelligence
+939		Figure 5.18: Linda Binti Backend API and Service Wireframe
+940	Heading3	5.5.2 NGO Dashboard Wireframe
+947		Figure 5.19: NGO Dashboard Wireframe
+950	Heading3	5.5.3 USSD Interface Design
+951		The USSD interface was designed as a gateway-ready feature for users who may access a feature-phone pathway. The implemented menu provides options for reporting GBV, reporting FGM, accessing emergency numbers and exiting
+955		Figure 5.20: USSD Interface Design
+959	Heading3	5.5.4 Backend Security and Authorisation Design
+965		Figure 5.21: Backend Authentication and Authorisation Design
+969	Heading2	5.6 Summary
+970		This chapter presented the design of the Linda Binti application before and during implementation. UML structural tools, including the class, component and deployment diagrams, were identified to represent the system’s s
+987	Heading1	CHAPTER SIX: SYSTEM DEVELOPMENT
+988	Heading2	6.1 Introduction
+990	Heading2	6.2 Development Environment
+995		The web dashboard was implemented using HTML, CSS and JavaScript. Leaflet 1.9.4 was used for geographical visualisation, together with the Kajiado County GeoJSON file included in the project. The project also contains a 
+996	Heading2	6.3 Mobile Application Development
+1000	Heading3	6.3.1 Application Launcher and Access Control
+1008	Heading3	6.3.2 Home and Navigation
+1013	Heading3	6.3.3 Education Module
+1033	Heading3	6.3.4 Reporting Module
+1046	Heading3	6.3.5 Risk Assessment and Safety Compass
+1052	Heading3	6.3.6 Emergency Assistance and Trusted Contacts
+1056		The SMS contains an emergency message and, where available, a location obtained at the time of the alert. The location may be represented by latitude and longitude together with a Google Maps coordinate URL. If a locatio
+1059	Heading3	6.3.7 Survivor Support
+1063	Heading3	6.3.8 AI Assistant
+1070	Heading3	6.3.9 Settings and Privacy
+1072		The module also provides access to the in-app NGO preview and an explanation of the USSD pathway. The local wipe function removes protected preferences and local Room data.
+1077	Heading2	6.4 Backend Development
+1078		The backend was implemented as a Kotlin-based Ktor application running on Netty. The backend provides HTTP services for authentication, reporting, AI processing, education content, support services, analytics, dashboard 
+1080	Heading3	6.4.1 Backend Services and API
+1081		The backend implements separate services for different system responsibilities. These include authentication, reporting, AI orchestration, NGO intelligence, analytics, education content, auditing, support services and US
+1082		Public endpoints include the application health endpoint, support catalogue, education content, authentication operations and USSD endpoints. Authenticated endpoints provide report submission, report retrieval, AI operat
+1085	Heading3	6.4.2 Database Implementation
+1092	Heading3	6.4.3 Authentication and Authorisation
+1098	Heading3	6.4.4 AI Integration
+1104	Heading3	6.4.5 Dashboard Development
+1106		Leaflet 1.9.4 was used to display geographical information using the project’s Kajiado GeoJSON file. The dashboard presents case counts and area information at the county and sub-county level. It does not display live GP
+1110	Heading3	6.4.6 USSD Development
+1111		The USSD functionality was implemented on the backend as a gateway-ready menu rather than as a live public shortcode. The Android application itself is not a USSD client.
+1112		UssdMenuService provides a menu for reporting GBV, reporting FGM and accessing emergency numbers. The user can then select one of the supported Kajiado sub-counties or provide an area name, followed by a name before the 
+1113		The backend includes an Africa’s Talking adapter that accepts the expected gateway fields and returns the appropriate continuation or termination response. The implementation does not persist the caller’s MSISDN. The nam
+1114		A gateway secret must be configured before the USSD endpoint can operate as a protected external gateway. When the gateway secret is absent, the system treats the USSD pathway as a development stub. The repository theref
+1115	Heading2	6.5 System Integration
+1124	Heading2	6.6 System Security and Privacy Implementation
+1132		The system also implements audit logging for important activities including authentication, report ingestion, analytics access, staff management, education changes and USSD handling. API keys and sensitive server configu
+1135	Heading2	6.7 System Deployment and Configuration
+1137		A Render configuration file is also included for a hostable web service. It specifies the backend service, health-check endpoint and environment variables required for database, authentication, AI and USSD configuration.
+1139		The release Android application is configured to use https://lindabinti.com/ as its default backend URL, with the URL being overridable through the appropriate Gradle property. Online AI remains unavailable until the req
+1143	Heading2	6.8 Chapter Summary
+1144		This chapter presented the development and implementation of Linda Binti as a Kotlin and Jetpack Compose Android application supported by a Ktor backend and browser-based NGO dashboard. The chapter described the implemen
+1148	Heading1	CHAPTER SEVEN: SYSTEM TESTING AND EVALUATION
+1149	Heading2	7.1 Introduction
+1150		This chapter presents the testing and evaluation of the Linda Binti application developed for the prevention and response to gender-based violence (GBV) and female genital mutilation (FGM) in Kajiado County. Testing was 
+1152	Heading2	7.2 Testing Strategy
+1154		Functional testing was used to verify features such as application access, navigation, education, reporting, risk assessment, trusted contacts, emergency assistance, the AI assistant and settings. Backend testing was use
+1156	Heading2	7.3 Testing Environment
+1161	Heading2	7.4 Functional Testing
+1162		Functional testing was performed to determine whether the system functions operated according to their intended behaviour. The tests covered both normal and alternative conditions, including offline operation, missing pe
+1163	Heading3	7.4.1 Mobile Application Testing
+1171	Heading3	7.4.2 Backend and API Testing
+1176		The analytics functions were tested to verify that events could be submitted by authorised users and that summary information could be provided to authorised NGO personnel. The USSD endpoints were also tested using the i
+1177	Heading2	7.5 Integration Testing
+1186	Heading2	7.6 Security and Privacy Testing
+1191	Heading3	7.6.1 Access Control Testing
+1194	Heading3	7.6.2 Authentication and Authorisation Testing
+1197	Heading3	7.6.3 Data Protection Testing
+1201	Heading3	7.6.4 Emergency and Location Privacy Testing
+1204	Heading3	7.6.5 Dashboard Privacy Testing
+1207	Heading2	7.7 Test Results
+1209		Table 7.1: Summary of System Test Results
+1229	Heading2	7.8 Usability and Requirement Validation
+1236		The questionnaire results from the requirement-gathering stage were intended to provide further user-level validation of the identified needs. Where final questionnaire statistics or user-acceptance scores were not avail
+1237	Heading2	7.9 Limitations of Testing
+1241		Fourth, the USSD component was implemented as a gateway-ready service and demonstration pathway rather than as a live public shortcode. Consequently, the testing did not represent live operator-level USSD performance.
+1244	Heading2	7.10 Chapter Summary
+1245		This chapter presented the testing and evaluation of the Linda Binti application. Functional testing was used to examine the major mobile and backend functions, while integration testing verified communication between th
