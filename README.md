@@ -77,7 +77,7 @@ Download the APK from the latest GitHub release:
 3. Allow Gradle to sync.
 4. Connect an Android phone or start an emulator.
 5. Run the app from Android Studio.
-6. To run the NGO dashboard as well, start the backend with `.\gradlew :backend:run`, then open `http://127.0.0.1:8080/dashboard/`.
+6. To run the NGO dashboard as well, start the backend with `.\gradlew :backend:run`. The dashboard then opens in your browser on this same computer, at port 8080. It is not a public website.
 
 ## Developer
 
