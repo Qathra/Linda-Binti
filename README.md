@@ -84,9 +84,13 @@ Download the APK from the latest GitHub release:
 **Qathra Hamdi Ahmed**
 
 Bachelor of Science in Information Technology | Umma University
+
 💻 Interests: AI, Cybersecurity & Android Development
+
 🌟 Former Vice President, Umma University Student Council
+
 ❤️ Former Chairlady, Umma University Red Cross Chapter
+
 🚀 Creator of Linda Binti | Technology for Social Impact
 
 ## Project Status
